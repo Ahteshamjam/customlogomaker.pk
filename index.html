@@ -1,753 +1,2633 @@
 <!DOCTYPE html>
+<!-- LUXE AUTO REPAIR — FLAGSHIP HOMEPAGE v1.0 PRODUCTION
+     Sections: 21 | Schema: AutoRepair, FAQPage, BreadcrumbList
+     Last updated: 2026 | luxeautosrepair.com -->
+
 <html lang="en">
-
+<!-- hreflang: es version at /es/ (future) -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxe Auto Repair | European & Luxury Car Repair | Hollywood FL | (754) 260-5912</title>
+<meta name="description" content="Hollywood's premier 40-bay European automotive repair center. BMW, Mercedes, Audi, Porsche & all makes. Free towing on major repairs. Same-day diagnostics. Call (754) 260-5912.">
+<link rel="alternate" hreflang="es" href="https://luxeautosrepair.com/es/">
+<link rel="alternate" hreflang="en" href="https://luxeautosrepair.com/">
+<link rel="canonical" href="https://luxeautosrepair.com/">
+<meta property="og:type" content="business.business">
+<meta property="og:title" content="Luxe Auto Repair | Hollywood FL | 40-Bay European Repair Center">
+<meta property="og:description" content="40-bay European repair center in Hollywood FL. Free towing on major repairs. BMW, Mercedes, Audi, Porsche. Same-day diagnostics. Call (754) 260-5912.">
+<meta property="og:url" content="https://luxeautosrepair.com/">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://luxeautosrepair.com/wp-content/uploads/luxe-auto-repair-hollywood-fl-og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Luxe Auto Repair — 40-Bay European Repair Center in Hollywood FL">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://luxeautosrepair.com/wp-content/uploads/luxe-auto-repair-hollywood-fl-og.jpg">
+<meta name="twitter:title" content="Luxe Auto Repair | Hollywood FL | (754) 260-5912">
+<meta name="twitter:description" content="40-bay European repair center. BMW, Mercedes, Audi, Porsche. Free towing on major repairs. Same-day diagnostics.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
-    <!-- ===== Boostrap External Link ===== -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <!-- ===== CUSTOM CSS LINK ===== -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- ===== RESPONSIVE CSS LINK ===== -->
-     <link rel="stylesheet" href="./assets/css/responsive.css">
-    <!-- ===== GOOGLE FONT EXTERNAL LINK ===== -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <!-- ===== BOX ICONS EXTERNAL LINK ===== -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "Luxe Auto Repair",
+  "url": "https://luxeautosrepair.com/",
+  "telephone": "+17542605912",
+  "image": "https://luxeautosrepair.com/logo.png",
+  "description": "Premier 40-bay European and luxury automotive repair center in Hollywood, FL. Specializing in BMW, Mercedes-Benz, Audi, Porsche and all makes. Free towing on major repairs.",
+  "slogan": "Where Luxury Meets Performance",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "6031 Hollywood Blvd",
+    "addressLocality": "Hollywood",
+    "addressRegion": "FL",
+    "postalCode": "33024",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 26.0265,
+    "longitude": -80.2206
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "08:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Sunday"],
+      "opens": "09:00",
+      "closes": "17:00"
+    }
+  ],
+  "areaServed": [
+    {"@type": "City", "name": "Hollywood"},
+    {"@type": "City", "name": "Hallandale Beach"},
+    {"@type": "City", "name": "Dania Beach"},
+    {"@type": "City", "name": "Davie"},
+    {"@type": "City", "name": "Pembroke Pines"},
+    {"@type": "City", "name": "Miramar"},
+    {"@type": "City", "name": "Fort Lauderdale"},
+    {"@type": "AdministrativeArea", "name": "Broward County"}
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Auto Repair Services",
+    "itemListElement": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "BMW Repair Hollywood FL"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Mercedes-Benz Repair Hollywood FL"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Audi Repair Hollywood FL"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Porsche Repair Hollywood FL"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Engine Diagnostics Hollywood FL"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Transmission Repair Hollywood FL"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Repair Hollywood FL"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Brake Repair Hollywood FL"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Free Towing Major Repairs Hollywood FL"}}
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does Luxe Auto Repair offer free towing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Luxe Auto Repair provides free towing on qualifying major repairs in the Hollywood FL area. Call (754) 260-5912 to confirm eligibility for your repair."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you service my BMW, Mercedes, or Porsche in Hollywood FL?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Luxe Auto Repair is a European specialist using manufacturer-specific diagnostic platforms — ISTA for BMW, XENTRY for Mercedes-Benz, ODIS for Audi and Volkswagen, and PIWIS-compatible equipment for Porsche. We are located at 6031 Hollywood Blvd, Hollywood FL 33024."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How large is your facility?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Luxe Auto Repair operates a 40-bay facility at 6031 Hollywood Blvd with 24/7 armed security, CCTV monitoring, and climate-controlled vehicle storage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer same-day auto repair in Hollywood FL?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Many diagnostic evaluations and common repairs can be completed the same day. Call (754) 260-5912 to confirm availability for your specific vehicle and repair."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens before any repair begins at Luxe Auto Repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We perform a professional diagnostic evaluation, document our findings, and walk you through the recommended repairs before any work begins. For convenience, we offer digital approval via WhatsApp so you can authorize repairs without visiting the shop."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://luxeautosrepair.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://luxeautosrepair.com/services/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Vehicles We Service",
+      "item": "https://luxeautosrepair.com/vehicles/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Knowledge Center",
+      "item": "https://luxeautosrepair.com/knowledge/"
+    }
+  ]
+}
+</script>
 
+<style>
+/* ═══════════════════════════════════════════════
+   LUXE AUTO REPAIR — FLAGSHIP HOMEPAGE
+   Brand Palette (Official — from business profile)
+   Charcoal:  #3A3D40  /  #333333
+   Crimson:   #E50914  /  #D32F2F
+   White:     #FFFFFF
+   Matte Black: #1A1A1A / #000000
+   Accent Gray: #2A2D30
+═══════════════════════════════════════════════ */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --charcoal:   #3A3D40;
+  --charcoal-lt:#4A4D50;
+  --card-dark:  #2A2D30;
+  --black:      #1A1A1A;
+  --black-pure: #000000;
+  --red:        #E50914;
+  --red-dk:     #C5060F;
+  --red-pale:   rgba(229,9,20,0.08);
+  --white:      #FFFFFF;
+  --silver:     #C8C8C8;
+  --mist:       #888888;
+  --light-rule: rgba(255,255,255,0.08);
+
+  /* Light section palette */
+  --lt-bg:      #F5F5F5;
+  --lt-card:    #FFFFFF;
+  --lt-border:  #E0E0E0;
+  --lt-text:    #1A1A1A;
+  --lt-muted:   #555555;
+
+  --font-body: 'Inter', Helvetica, Arial, sans-serif;
+  --font-head: 'Montserrat', Helvetica, Arial, sans-serif;
+  --wrap: 1200px;
+  --section-dk: 80px;
+  --section-lt: 72px;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--charcoal);
+  color: var(--white);
+  font-size: 18px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+
+/* ── SKIP ── */
+.skip {
+  position: absolute; left: -9999px; top: 0;
+  background: var(--red); color: var(--white);
+  padding: 12px 20px; z-index: 999;
+  font-family: var(--font-head); font-weight: 700;
+}
+.skip:focus { left: 10px; top: 10px; }
+:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
+
+/* ── CONTAINER ── */
+.wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 32px; }
+@media(max-width: 640px) { .wrap { padding: 0 20px; } }
+
+/* ════════════════════════════════════════════
+   HEADER — Dark, sticky, premium
+════════════════════════════════════════════ */
+.hdr {
+  position: sticky; top: 0; z-index: 300;
+  background: rgba(26,26,26,0.97);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--light-rule);
+  height: 68px;
+  display: flex; align-items: center;
+}
+.hdr-inner {
+  display: flex; align-items: center;
+  justify-content: space-between;
+  width: 100%; max-width: var(--wrap);
+  margin: 0 auto; padding: 0 32px;
+  gap: 16px;
+}
+@media(max-width: 640px) { .hdr-inner { padding: 0 20px; } }
+
+.hdr-brand {
+  font-family: var(--font-head);
+  font-size: 16px; font-weight: 900;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  color: var(--white);
+  flex-shrink: 0;
+}
+.hdr-brand em { color: var(--red); font-style: normal; }
+
+.hdr-nav {
+  display: none; align-items: center; gap: 28px;
+}
+@media(min-width: 768px) { .hdr-nav { display: flex; } }
+.hdr-link {
+  font-size: 11px; font-weight: 600;
+  letter-spacing: 1.2px; text-transform: uppercase;
+  color: var(--silver); transition: color 0.15s;
+  position: relative; padding-bottom: 2px;
+}
+.hdr-link::after {
+  content: ''; position: absolute; bottom: -2px; left: 0;
+  width: 0; height: 1px; background: var(--red);
+  transition: width 0.2s;
+}
+.hdr-link:hover { color: var(--white); }
+.hdr-link:hover::after { width: 100%; }
+
+.hdr-actions { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+.btn-wa-hdr {
+  display: none;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid var(--light-rule);
+  color: var(--silver);
+  font-family: var(--font-body);
+  font-size: 13px; font-weight: 500;
+  padding: 10px 16px; border-radius: 3px;
+  transition: background 0.15s;
+}
+.btn-wa-hdr:hover { background: rgba(255,255,255,0.12); }
+@media(min-width: 560px) { .btn-wa-hdr { display: inline-flex; align-items: center; gap: 7px; } }
+.btn-call-hdr {
+  background: var(--red); color: var(--white);
+  font-family: var(--font-head);
+  font-size: 13px; font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 11px 22px; border-radius: 3px;
+  display: inline-flex; align-items: center; gap: 7px;
+  transition: background 0.15s; white-space: nowrap;
+  min-height: 44px;
+}
+.btn-call-hdr:hover { background: var(--red-dk); }
+
+/* ════════════════════════════════════════════
+   HERO — Cinematic dark, charcoal base
+   Visual rhythm: DARK (section 1)
+════════════════════════════════════════════ */
+.hero {
+  background: var(--black);
+  min-height: 92vh;
+  display: flex; flex-direction: column; justify-content: center;
+  padding: 80px 0 64px;
+  position: relative; overflow: hidden;
+}
+
+/* Subtle grid texture */
+.hero::before {
+  content: '';
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(229,9,20,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(229,9,20,0.03) 1px, transparent 1px);
+  background-size: 72px 72px;
+  pointer-events: none; z-index: 0;
+}
+
+/* Ambient glow */
+.hero::after {
+  content: '';
+  position: absolute;
+  width: 700px; height: 700px;
+  background: radial-gradient(circle, rgba(229,9,20,0.10) 0%, transparent 65%);
+  bottom: -150px; right: -150px;
+  z-index: 0; pointer-events: none;
+}
+
+.hero-inner {
+  position: relative; z-index: 1;
+  max-width: var(--wrap); margin: 0 auto;
+  width: 100%; padding: 0 32px;
+}
+@media(max-width: 640px) { .hero-inner { padding: 0 20px; } }
+
+/* Emergency badge — creates urgency immediately */
+.hero-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--red);
+  color: var(--white);
+  font-family: var(--font-head);
+  font-size: 11px; font-weight: 700;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  padding: 7px 14px; border-radius: 2px;
+  margin-bottom: 28px;
+}
+.hero-badge-dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--white);
+  animation: pulse-dot 1.8s ease-in-out infinite;
+}
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.3); }
+}
+@media(prefers-reduced-motion: reduce) {
+  .hero-badge-dot { animation: none; }
+}
+
+.hero-location {
+  font-size: 12px; font-weight: 500; letter-spacing: 2.5px;
+  text-transform: uppercase; color: var(--mist);
+  margin-bottom: 24px;
+  display: flex; align-items: center; gap: 10px;
+}
+.hero-location::before {
+  content: ''; display: block;
+  width: 28px; height: 1px; background: var(--red);
+  flex-shrink: 0;
+}
+
+.hero h1 {
+  font-family: var(--font-head);
+  font-size: clamp(2.4rem, 6.5vw, 5rem);
+  font-weight: 900;
+  line-height: 1.0;
+  letter-spacing: -0.03em;
+  color: var(--white);
+  max-width: 860px;
+  margin-bottom: 28px;
+  text-transform: uppercase;
+}
+.hero h1 .accent { color: var(--red); }
+.hero h1 .light { font-weight: 300; letter-spacing: -0.01em; }
+
+.hero-sub {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  color: var(--silver);
+  line-height: 1.7;
+  max-width: 560px;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+
+/* USP Banner — the FREE TOWING differentiator */
+.hero-usp {
+  display: inline-flex; align-items: center; gap: 10px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-left: 3px solid var(--red);
+  padding: 12px 20px;
+  margin-bottom: 36px;
+  border-radius: 3px;
+}
+.hero-usp-icon { font-size: 20px; flex-shrink: 0; }
+.hero-usp-text { font-size: 14px; color: var(--white); font-weight: 500; line-height: 1.4; }
+.hero-usp-text strong { color: var(--red); font-family: var(--font-head); font-weight: 700; }
+
+.hero-actions {
+  display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 60px;
+}
+.btn-hero-primary {
+  background: var(--red); color: var(--white);
+  font-family: var(--font-head);
+  font-size: 15px; font-weight: 700; letter-spacing: 0.5px;
+  padding: 17px 36px; border-radius: 3px;
+  display: inline-flex; align-items: center; gap: 10px;
+  min-height: 56px; transition: background 0.15s, transform 0.15s;
+  text-transform: uppercase;
+}
+.btn-hero-primary:hover { background: var(--red-dk); transform: translateY(-1px); }
+.btn-hero-wa {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.2);
+  color: var(--white);
+  font-family: var(--font-body);
+  font-size: 15px; font-weight: 500;
+  padding: 17px 28px; border-radius: 3px;
+  min-height: 56px;
+  display: inline-flex; align-items: center; gap: 10px;
+  transition: border-color 0.15s;
+}
+.btn-hero-wa:hover { border-color: rgba(255,255,255,0.45); }
+
+/* Hero stat row */
+.hero-stats {
+  display: grid; grid-template-columns: repeat(4, auto);
+  gap: 0;
+  border-top: 1px solid var(--light-rule);
+  padding-top: 36px;
+  max-width: 700px;
+}
+@media(max-width: 560px) {
+  .hero-stats { grid-template-columns: 1fr 1fr; gap: 24px 0; }
+}
+.hstat { padding-right: 40px; }
+.hstat-num {
+  font-family: var(--font-head);
+  font-size: 2.2rem; font-weight: 900;
+  color: var(--white); line-height: 1;
+  letter-spacing: -0.02em; margin-bottom: 5px;
+}
+.hstat-num em { color: var(--red); font-style: normal; }
+.hstat-label {
+  font-size: 11px; font-weight: 600; letter-spacing: 1px;
+  text-transform: uppercase; color: var(--mist);
+}
+
+/* ════════════════════════════════════════════
+   AUTHORITY STRIP — software + certifications
+   Visual rhythm: DARK (stays dark, no break yet)
+════════════════════════════════════════════ */
+.auth-strip {
+  background: var(--card-dark);
+  border-top: 1px solid var(--light-rule);
+  border-bottom: 1px solid var(--light-rule);
+  padding: 22px 0;
+}
+.auth-inner {
+  max-width: var(--wrap); margin: 0 auto; padding: 0 32px;
+  display: flex; flex-wrap: wrap; align-items: center;
+  gap: 12px 28px; justify-content: space-between;
+}
+@media(max-width: 640px) { .auth-inner { padding: 0 20px; } }
+.auth-label {
+  font-size: 10px; font-weight: 700; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--mist);
+  white-space: nowrap;
+}
+.auth-pills { display: flex; flex-wrap: wrap; gap: 8px; }
+.auth-pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: var(--silver);
+  font-size: 12px; font-weight: 600;
+  padding: 7px 14px; border-radius: 2px;
+}
+.auth-pill::before { content: '●'; color: var(--red); font-size: 7px; }
+
+/* ════════════════════════════════════════════
+   EMERGENCY RESCUE SECTION
+   Visual rhythm: DARK CHARCOAL
+   Purpose: Capture panic search intent immediately
+════════════════════════════════════════════ */
+.emergency-section {
+  background: var(--charcoal);
+  border-bottom: 3px solid var(--red);
+  padding: 72px 0;
+}
+.emergency-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 60px; align-items: center;
+}
+@media(max-width: 768px) { .emergency-grid { grid-template-columns: 1fr; gap: 36px; } }
+
+.emerg-headline {
+  font-family: var(--font-head);
+  font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+  font-weight: 900; text-transform: uppercase;
+  letter-spacing: -0.02em; line-height: 1.1;
+  color: var(--white); margin-bottom: 16px;
+}
+.emerg-headline em { color: var(--red); font-style: normal; }
+.emerg-sub {
+  font-size: 16px; color: var(--silver); line-height: 1.7;
+  margin-bottom: 24px; max-width: 480px;
+}
+.emerg-usp-list { list-style: none; margin-bottom: 28px; }
+.emerg-usp-list li {
+  font-size: 15px; color: var(--silver);
+  padding: 8px 0; border-bottom: 1px solid var(--light-rule);
+  display: flex; align-items: center; gap: 10px;
+}
+.emerg-usp-list li:last-child { border-bottom: none; }
+.emerg-usp-list li::before {
+  content: '✓'; color: var(--red);
+  font-family: var(--font-head); font-weight: 700;
+  font-size: 14px; flex-shrink: 0;
+}
+.emerg-usp-list li strong { color: var(--white); }
+
+/* Emergency signal cards */
+.emerg-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
+.emerg-card {
+  background: var(--card-dark);
+  border-top: 2px solid transparent;
+  padding: 22px 18px;
+  transition: border-color 0.15s, background 0.15s;
+  cursor: default;
+}
+.emerg-card:hover { border-color: var(--red); background: #333639; }
+.emerg-card-icon { font-size: 24px; margin-bottom: 10px; display: block; }
+.emerg-card h3 {
+  font-family: var(--font-head);
+  font-size: 14px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.3px;
+  color: var(--white); margin-bottom: 6px;
+}
+.emerg-card p { font-size: 13px; color: var(--mist); line-height: 1.55; }
+
+/* ════════════════════════════════════════════
+   TRUST PILLARS — LIGHT SECTION
+   Visual rhythm: LIGHT (rhythm break)
+════════════════════════════════════════════ */
+.trust-section {
+  background: var(--lt-bg);
+  border-bottom: 1px solid var(--lt-border);
+  padding: 64px 0;
+}
+.trust-pillars {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  background: var(--lt-border);
+  border: 1px solid var(--lt-border);
+  border-radius: 4px; overflow: hidden;
+  margin-top: 48px;
+}
+@media(max-width: 900px) { .trust-pillars { grid-template-columns: repeat(2, 1fr); } }
+@media(max-width: 500px) { .trust-pillars { grid-template-columns: 1fr; } }
+.trust-pillar {
+  background: var(--lt-card);
+  padding: 32px 28px;
+  position: relative;
+  transition: background 0.15s;
+}
+.trust-pillar:hover { background: #fafafa; }
+.trust-pillar::before {
+  content: ''; position: absolute;
+  top: 0; left: 0; width: 0; height: 3px;
+  background: var(--red); transition: width 0.25s;
+}
+.trust-pillar:hover::before { width: 100%; }
+.tp-icon { font-size: 28px; margin-bottom: 14px; display: block; }
+.tp-title {
+  font-family: var(--font-head);
+  font-size: 15px; font-weight: 700;
+  color: var(--lt-text); margin-bottom: 8px;
+  text-transform: uppercase; letter-spacing: 0.3px;
+}
+.tp-body { font-size: 14px; color: var(--lt-muted); line-height: 1.6; }
+
+/* Light section header */
+.sec-eyebrow-lt {
+  font-size: 11px; font-weight: 700; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--red);
+  margin-bottom: 12px; display: block;
+}
+.sec-h2-lt {
+  font-family: var(--font-head);
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 900; text-transform: uppercase;
+  letter-spacing: -0.02em; line-height: 1.1;
+  color: var(--lt-text); margin-bottom: 12px;
+}
+.sec-sub-lt {
+  font-size: 16px; color: var(--lt-muted);
+  max-width: 600px; line-height: 1.7;
+  margin-bottom: 0;
+}
+
+/* Dark section header */
+.sec-eyebrow-dk {
+  font-size: 11px; font-weight: 700; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--red);
+  margin-bottom: 12px; display: block;
+}
+.sec-h2-dk {
+  font-family: var(--font-head);
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 900; text-transform: uppercase;
+  letter-spacing: -0.02em; line-height: 1.1;
+  color: var(--white); margin-bottom: 12px;
+}
+.sec-sub-dk {
+  font-size: 16px; color: var(--silver);
+  max-width: 600px; line-height: 1.7;
+  margin-bottom: 0;
+}
+
+/* ════════════════════════════════════════════
+   SERVICES — DARK SECTION
+   Visual rhythm: DARK (rhythm alternates back)
+════════════════════════════════════════════ */
+.services-section {
+  background: var(--charcoal);
+  border-top: 3px solid var(--red);
+  padding: var(--section-dk) 0;
+}
+.svc-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--light-rule);
+  border-radius: 4px; overflow: hidden;
+  margin-top: 52px;
+}
+@media(max-width: 900px) { .svc-grid { grid-template-columns: 1fr 1fr; } }
+@media(max-width: 560px) { .svc-grid { grid-template-columns: 1fr; } }
+.svc-card {
+  background: var(--card-dark);
+  padding: 32px 28px;
+  display: flex; flex-direction: column;
+  border-top: 2px solid transparent;
+  transition: border-color 0.2s, background 0.2s;
+  position: relative; overflow: hidden;
+}
+.svc-card::after {
+  content: ''; position: absolute;
+  bottom: 0; left: 0; right: 0; height: 0;
+  background: linear-gradient(to top, rgba(229,9,20,0.05), transparent);
+  transition: height 0.3s;
+}
+.svc-card:hover { border-color: var(--red); background: #303336; }
+.svc-card:hover::after { height: 100%; }
+.svc-icon { font-size: 28px; margin-bottom: 14px; display: block; }
+.svc-label {
+  font-size: 10px; font-weight: 700; letter-spacing: 1.5px;
+  text-transform: uppercase; color: var(--red);
+  margin-bottom: 6px; display: block;
+}
+.svc-card h3 {
+  font-family: var(--font-head);
+  font-size: 16px; font-weight: 700;
+  color: var(--white); margin-bottom: 10px;
+  line-height: 1.2;
+}
+.svc-card p { font-size: 14px; color: var(--mist); line-height: 1.65; flex: 1; }
+.svc-cta {
+  margin-top: 18px; padding-top: 16px;
+  border-top: 1px solid var(--light-rule);
+  font-size: 12px; font-weight: 700;
+  letter-spacing: 1px; text-transform: uppercase;
+  color: var(--red); display: inline-flex;
+  align-items: center; gap: 6px;
+  transition: gap 0.15s; position: relative; z-index: 1;
+}
+.svc-cta:hover { gap: 10px; }
+
+/* Tier badges */
+.svc-tier {
+  display: inline-block; font-size: 9px; font-weight: 700;
+  letter-spacing: 1px; text-transform: uppercase;
+  background: var(--red); color: var(--white);
+  padding: 3px 8px; border-radius: 2px; margin-bottom: 10px;
+}
+.svc-tier.t2 { background: rgba(229,9,20,0.15); color: var(--red); }
+
+/* ════════════════════════════════════════════
+   VEHICLE BRAND MATRIX — DARK
+   Visual rhythm: DARK (continuous, these are premium)
+════════════════════════════════════════════ */
+.brands-section {
+  background: var(--black);
+  border-top: 1px solid var(--light-rule);
+  padding: var(--section-dk) 0;
+}
+.brand-header {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 56px; align-items: end; margin-bottom: 52px;
+}
+@media(max-width: 768px) { .brand-header { grid-template-columns: 1fr; gap: 24px; } }
+.brand-header p { font-size: 15px; color: var(--silver); line-height: 1.7; }
+.brand-header a {
+  display: inline-flex; align-items: center; gap: 6px;
+  margin-top: 16px; font-size: 12px; font-weight: 700;
+  letter-spacing: 1px; text-transform: uppercase; color: var(--red);
+}
+.brand-header a:hover { text-decoration: underline; }
+
+.brand-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 2px; background: #111;
+  border: 1px solid #111; border-radius: 4px; overflow: hidden;
+}
+@media(max-width: 900px) { .brand-grid { grid-template-columns: 1fr 1fr; } }
+@media(max-width: 480px) { .brand-grid { grid-template-columns: 1fr; } }
+.brand-card {
+  background: #161616;
+  padding: 26px 22px;
+  border-top: 2px solid transparent;
+  transition: border-color 0.2s, background 0.2s;
+  position: relative;
+}
+.brand-card:hover { border-color: var(--red); background: #1c1c1c; }
+.bc-platform {
+  font-size: 9px; font-weight: 700; letter-spacing: 1.5px;
+  text-transform: uppercase; color: var(--red);
+  margin-bottom: 8px; display: block;
+}
+.bc-name {
+  font-family: var(--font-head);
+  font-size: 18px; font-weight: 800;
+  color: var(--white); margin-bottom: 8px;
+}
+.bc-desc { font-size: 13px; color: var(--mist); line-height: 1.6; margin-bottom: 12px; }
+.bc-models { display: flex; flex-wrap: wrap; gap: 5px; }
+.bc-model {
+  font-size: 11px; color: #444;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid #2a2a2a;
+  padding: 3px 8px; border-radius: 2px;
+  transition: color 0.15s;
+}
+.brand-card:hover .bc-model { color: var(--mist); }
+
+.brand-card-wide { grid-column: span 2; }
+@media(max-width: 480px) { .brand-card-wide { grid-column: span 1; } }
+
+/* ════════════════════════════════════════════
+   SYMPTOM DIAGNOSIS CENTER — LIGHT
+   Visual rhythm: LIGHT (rhythm break)
+   GEO/AEO: Answers "my car is doing X" searches
+════════════════════════════════════════════ */
+.symptoms-section {
+  background: var(--lt-bg);
+  border-top: 3px solid var(--red);
+  padding: var(--section-lt) 0;
+}
+.symptom-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 14px; margin-top: 48px;
+}
+@media(max-width: 900px) { .symptom-grid { grid-template-columns: 1fr 1fr; } }
+@media(max-width: 560px) { .symptom-grid { grid-template-columns: 1fr; } }
+.symptom-card {
+  background: var(--lt-card);
+  border: 1px solid var(--lt-border);
+  border-left: 3px solid transparent;
+  padding: 22px 20px;
+  transition: border-left-color 0.2s, box-shadow 0.2s;
+  border-radius: 3px;
+}
+.symptom-card:hover {
+  border-left-color: var(--red);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+}
+.sc-warning {
+  font-size: 10px; font-weight: 700; letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--red); margin-bottom: 8px; display: block;
+}
+.symptom-card h3 {
+  font-family: var(--font-head);
+  font-size: 15px; font-weight: 700;
+  color: var(--lt-text); margin-bottom: 8px; line-height: 1.2;
+}
+.symptom-card p { font-size: 14px; color: var(--lt-muted); line-height: 1.6; }
+.sc-action {
+  display: inline-flex; align-items: center; gap: 5px;
+  margin-top: 12px; font-size: 12px; font-weight: 700;
+  letter-spacing: 0.5px; text-transform: uppercase;
+  color: var(--red);
+}
+.sc-action:hover { text-decoration: underline; }
+
+/* ════════════════════════════════════════════
+   WHY LUXE vs DEALERSHIP — DARK
+   Visual rhythm: DARK
+════════════════════════════════════════════ */
+.why-section {
+  background: var(--charcoal);
+  border-top: 1px solid var(--light-rule);
+  padding: var(--section-dk) 0;
+}
+.why-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 2px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--light-rule);
+  border-radius: 4px; overflow: hidden;
+  margin-top: 52px;
+}
+@media(max-width: 600px) { .why-grid { grid-template-columns: 1fr; } }
+.why-card {
+  background: var(--card-dark);
+  padding: 36px 32px;
+  border-top: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+.why-card:hover { border-color: var(--red); }
+.wc-num {
+  font-size: 10px; font-weight: 700; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--red);
+  margin-bottom: 16px; display: block;
+}
+.why-card h3 {
+  font-family: var(--font-head);
+  font-size: 17px; font-weight: 700;
+  color: var(--white); margin-bottom: 12px; line-height: 1.2;
+}
+.why-card p { font-size: 15px; color: var(--mist); line-height: 1.7; }
+
+/* Comparison table */
+.compare-table {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 2px; background: #111;
+  border-radius: 4px; overflow: hidden; margin-top: 48px;
+}
+@media(max-width: 600px) { .compare-table { grid-template-columns: 1fr; } }
+.ct-col { background: #161616; padding: 28px 24px; }
+.ct-head {
+  font-size: 12px; font-weight: 700; letter-spacing: 1px;
+  text-transform: uppercase; margin-bottom: 20px;
+  padding-bottom: 14px; border-bottom: 1px solid #222;
+}
+.ct-head.luxe { color: var(--red); }
+.ct-head.dealer { color: #555; }
+.ct-head.generic { color: #555; }
+.ct-row {
+  display: flex; align-items: flex-start; gap: 10px;
+  margin-bottom: 12px; font-size: 14px; line-height: 1.5;
+}
+.ct-row .y { color: #4caf50; flex-shrink: 0; margin-top: 1px; }
+.ct-row .n { color: #444; flex-shrink: 0; margin-top: 1px; }
+.ct-row span { color: #888; }
+.ct-row.hi span { color: var(--silver); }
+
+/* ════════════════════════════════════════════
+   PROCESS — LIGHT
+   Visual rhythm: LIGHT
+════════════════════════════════════════════ */
+.process-section {
+  background: var(--lt-bg);
+  border-top: 1px solid var(--lt-border);
+  padding: var(--section-lt) 0;
+}
+.process-steps {
+  display: grid; grid-template-columns: repeat(5, 1fr);
+  gap: 0; margin-top: 52px;
+  border-top: 2px solid var(--lt-border);
+  padding-top: 40px;
+}
+@media(max-width: 900px) {
+  .process-steps { grid-template-columns: 1fr 1fr; gap: 32px; border-top: none; padding-top: 0; margin-top: 40px; }
+}
+@media(max-width: 500px) { .process-steps { grid-template-columns: 1fr; } }
+.process-step { padding-right: 28px; }
+.ps-num {
+  font-size: 11px; font-weight: 700; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--red);
+  margin-bottom: 14px; display: block;
+}
+.process-step h3 {
+  font-family: var(--font-head);
+  font-size: 15px; font-weight: 700;
+  color: var(--lt-text); margin-bottom: 8px; line-height: 1.2;
+}
+.process-step p { font-size: 14px; color: var(--lt-muted); line-height: 1.65; }
+
+/* ════════════════════════════════════════════
+   CTA BAND — RED FULL BLEED
+   Visual rhythm: ACCENT
+════════════════════════════════════════════ */
+.cta-band {
+  background: var(--red);
+  padding: 72px 0;
+  text-align: center; position: relative; overflow: hidden;
+}
+.cta-band::before {
+  content: '';
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.06) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+.cta-inner { position: relative; z-index: 1; max-width: 680px; margin: 0 auto; padding: 0 32px; }
+.cta-band h2 {
+  font-family: var(--font-head);
+  font-size: clamp(1.8rem, 4.5vw, 3.2rem);
+  font-weight: 900; text-transform: uppercase;
+  letter-spacing: -0.02em; color: var(--white);
+  margin-bottom: 12px; line-height: 1.05;
+}
+.cta-band p {
+  font-size: 17px; color: rgba(255,255,255,0.82);
+  margin-bottom: 32px; line-height: 1.65;
+}
+.btn-cta-white {
+  background: var(--white); color: var(--red);
+  font-family: var(--font-head);
+  font-size: 16px; font-weight: 700;
+  padding: 18px 52px; border-radius: 3px;
+  display: inline-flex; align-items: center; gap: 10px;
+  min-height: 60px; transition: opacity 0.15s, transform 0.15s;
+}
+.btn-cta-white:hover { opacity: 0.94; transform: translateY(-2px); }
+
+/* ════════════════════════════════════════════
+   REVIEWS — LIGHT
+   Visual rhythm: LIGHT
+════════════════════════════════════════════ */
+.reviews-section {
+  background: var(--lt-bg);
+  padding: var(--section-lt) 0;
+  border-top: 1px solid var(--lt-border);
+}
+.reviews-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 16px; margin-top: 48px;
+}
+@media(max-width: 768px) { .reviews-grid { grid-template-columns: 1fr; } }
+.review-card {
+  background: var(--lt-card);
+  border: 1px solid var(--lt-border);
+  border-top: 3px solid transparent;
+  padding: 28px 26px; display: flex; flex-direction: column;
+  border-radius: 3px; transition: border-top-color 0.2s, box-shadow 0.2s;
+}
+.review-card:hover {
+  border-top-color: var(--red);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+}
+.rev-stars { color: var(--red); font-size: 14px; letter-spacing: 3px; margin-bottom: 16px; }
+.rev-text {
+  font-size: 15px; color: var(--lt-muted);
+  line-height: 1.75; font-style: italic;
+  flex: 1; margin-bottom: 20px;
+}
+.rev-author {
+  font-family: var(--font-head);
+  font-size: 14px; font-weight: 700; color: var(--lt-text);
+}
+.rev-vehicle { font-size: 12px; color: #999; margin-top: 3px; }
+
+/* ════════════════════════════════════════════
+   KNOWLEDGE CENTER PREVIEW — DARK
+   Visual rhythm: DARK
+════════════════════════════════════════════ */
+.knowledge-section {
+  background: var(--black);
+  border-top: 1px solid var(--light-rule);
+  padding: var(--section-dk) 0;
+}
+.knowledge-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 2px; background: #111;
+  border: 1px solid #111; border-radius: 4px; overflow: hidden;
+  margin-top: 52px;
+}
+@media(max-width: 900px) { .knowledge-grid { grid-template-columns: 1fr 1fr; } }
+@media(max-width: 480px) { .knowledge-grid { grid-template-columns: 1fr; } }
+.kc-card {
+  background: #161616; padding: 26px 22px;
+  border-top: 2px solid transparent;
+  transition: border-color 0.2s, background 0.2s;
+}
+.kc-card:hover { border-color: var(--red); background: #1c1c1c; }
+.kc-icon { font-size: 24px; margin-bottom: 12px; display: block; }
+.kc-category {
+  font-size: 10px; font-weight: 700; letter-spacing: 1.5px;
+  text-transform: uppercase; color: var(--red);
+  margin-bottom: 8px; display: block;
+}
+.kc-card h3 {
+  font-family: var(--font-head);
+  font-size: 15px; font-weight: 700;
+  color: var(--white); margin-bottom: 8px; line-height: 1.2;
+}
+.kc-card p { font-size: 13px; color: var(--mist); line-height: 1.6; }
+.kc-link {
+  display: inline-flex; align-items: center; gap: 5px;
+  margin-top: 14px; font-size: 12px; font-weight: 700;
+  letter-spacing: 0.5px; text-transform: uppercase; color: var(--red);
+}
+.kc-link:hover { text-decoration: underline; }
+
+/* ════════════════════════════════════════════
+   FAQ — LIGHT
+   Visual rhythm: LIGHT
+════════════════════════════════════════════ */
+.faq-section {
+  background: var(--lt-bg);
+  border-top: 1px solid var(--lt-border);
+  border-bottom: 1px solid var(--lt-border);
+  padding: var(--section-lt) 0;
+}
+.faq-layout {
+  display: grid; grid-template-columns: 1fr 2fr;
+  gap: 72px; margin-top: 48px; align-items: start;
+}
+@media(max-width: 768px) { .faq-layout { grid-template-columns: 1fr; gap: 36px; } }
+.faq-sticky { position: sticky; top: 84px; }
+.faq-sticky h2 { font-size: clamp(1.6rem, 3.5vw, 2.4rem); }
+.faq-sticky p { font-size: 15px; color: var(--lt-muted); margin-top: 12px; margin-bottom: 24px; }
+.faq-item {
+  border-bottom: 1px solid var(--lt-border); padding: 24px 0;
+}
+.faq-item:first-child { border-top: 1px solid var(--lt-border); }
+.faq-q {
+  font-family: var(--font-head);
+  font-size: 16px; font-weight: 700;
+  color: var(--lt-text); margin-bottom: 10px; line-height: 1.3;
+}
+.faq-a { font-size: 15px; color: var(--lt-muted); line-height: 1.75; }
+.faq-a strong { color: var(--lt-text); }
+
+/* ════════════════════════════════════════════
+   CONTACT + FORM — DARK CHARCOAL
+   Visual rhythm: DARK
+════════════════════════════════════════════ */
+.contact-section {
+  background: var(--charcoal);
+  border-top: 3px solid var(--red);
+  padding: var(--section-dk) 0;
+}
+.contact-layout {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 72px; align-items: start;
+}
+@media(max-width: 768px) { .contact-layout { grid-template-columns: 1fr; gap: 48px; } }
+.contact-details { display: flex; flex-direction: column; gap: 24px; }
+.cdet { display: flex; gap: 14px; align-items: flex-start; }
+.cdet-icon { font-size: 20px; margin-top: 2px; flex-shrink: 0; }
+.cdet-label {
+  font-size: 10px; font-weight: 700; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--mist);
+  margin-bottom: 4px; display: block;
+}
+.cdet-val {
+  font-size: 17px; font-weight: 500; color: var(--white); line-height: 1.4;
+}
+.cdet-val a:hover { color: var(--red); }
+.btn-contact-call {
+  display: flex; align-items: center; justify-content: center;
+  background: var(--red); color: var(--white);
+  font-family: var(--font-head);
+  font-size: 15px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.5px;
+  padding: 18px; border-radius: 3px; min-height: 58px;
+  transition: background 0.15s; margin-top: 8px;
+}
+.btn-contact-call:hover { background: var(--red-dk); }
+.whatsapp-cta {
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid var(--light-rule);
+  color: var(--white);
+  font-size: 15px; font-weight: 500;
+  padding: 14px; border-radius: 3px;
+  transition: background 0.15s;
+}
+.whatsapp-cta:hover { background: rgba(255,255,255,0.10); }
+
+.form-card {
+  background: var(--card-dark);
+  border: 1px solid var(--light-rule);
+  border-radius: 4px; padding: 36px 32px;
+}
+.form-card h3 {
+  font-family: var(--font-head);
+  font-size: 20px; font-weight: 700;
+  color: var(--white); margin-bottom: 6px;
+}
+.form-card > p { font-size: 14px; color: var(--mist); margin-bottom: 24px; }
+.fld { margin-bottom: 16px; }
+.fld label {
+  display: block; font-size: 10px; font-weight: 700;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  color: var(--mist); margin-bottom: 7px;
+}
+.fld input, .fld textarea, .fld select {
+  width: 100%; background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: 3px; padding: 13px 15px;
+  font-size: 15px; color: var(--white);
+  font-family: var(--font-body); outline: none;
+  transition: border-color 0.2s; line-height: 1.5;
+}
+.fld input:focus, .fld textarea:focus, .fld select:focus {
+  border-color: rgba(255,255,255,0.35);
+}
+.fld input::placeholder, .fld textarea::placeholder { color: #555; }
+.fld textarea { min-height: 90px; resize: vertical; }
+.fld select { cursor: pointer; }
+.fld select option { background: var(--card-dark); color: var(--white); }
+.btn-form {
+  width: 100%; background: var(--red); color: var(--white);
+  border: none; font-family: var(--font-head);
+  font-size: 15px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.5px;
+  padding: 17px; border-radius: 3px;
+  cursor: pointer; min-height: 56px;
+  transition: background 0.15s; margin-top: 4px;
+}
+.btn-form:hover { background: var(--red-dk); }
+.form-note { font-size: 12px; color: var(--mist); margin-top: 10px; line-height: 1.5; }
+
+/* ════════════════════════════════════════════
+   SERVICE AREA — DARK
+════════════════════════════════════════════ */
+.area-section {
+  background: var(--black);
+  border-top: 1px solid var(--light-rule);
+  padding: 56px 0;
+}
+.area-layout {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 48px; align-items: start;
+}
+@media(max-width: 768px) { .area-layout { grid-template-columns: 1fr; } }
+.area-section .sec-h2-dk { font-size: clamp(1.5rem, 3.5vw, 2.4rem); }
+.area-section p { font-size: 15px; color: var(--silver); line-height: 1.7; }
+.area-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.area-tag {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: var(--silver); font-size: 14px;
+  padding: 9px 18px; border-radius: 2px;
+  transition: background 0.15s, color 0.15s;
+}
+.area-tag:hover { background: rgba(229,9,20,0.12); color: var(--white); }
+
+/* ════════════════════════════════════════════
+   FOOTER
+════════════════════════════════════════════ */
+.footer {
+  background: #0A0A0A;
+  border-top: 1px solid rgba(255,255,255,0.05);
+  padding: 60px 0 36px;
+}
+.footer-grid {
+  display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 48px; margin-bottom: 48px;
+}
+@media(max-width: 900px) { .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; } }
+@media(max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } }
+.ftr-brand {
+  font-family: var(--font-head);
+  font-size: 16px; font-weight: 900;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  color: var(--white); margin-bottom: 12px;
+}
+.ftr-brand em { color: var(--red); font-style: normal; }
+.ftr-addr { font-size: 14px; color: #444; line-height: 1.7; margin-bottom: 10px; }
+.ftr-phone a { color: var(--red); font-family: var(--font-head); font-weight: 700; font-size: 16px; }
+.ftr-tagline {
+  font-size: 12px; color: #333; margin-top: 10px;
+  font-style: italic; letter-spacing: 0.5px;
+}
+.ftr-col h4 {
+  font-size: 10px; font-weight: 700;
+  letter-spacing: 2px; text-transform: uppercase;
+  color: #333; margin-bottom: 18px;
+}
+.ftr-col ul { list-style: none; }
+.ftr-col li { margin-bottom: 10px; }
+.ftr-col a { font-size: 14px; color: #444; transition: color 0.15s; }
+.ftr-col a:hover { color: var(--white); }
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.05);
+  padding-top: 24px;
+  display: flex; justify-content: space-between;
+  align-items: center; flex-wrap: wrap; gap: 12px;
+  font-size: 12px; color: #333;
+}
+.footer-bottom a { color: #333; }
+.footer-bottom a:hover { color: var(--white); }
+.footer-legal { display: flex; flex-wrap: wrap; gap: 4px 16px; }
+
+/* ════════════════════════════════════════════
+   STICKY MOBILE CALL BAR
+════════════════════════════════════════════ */
+.sticky-bar {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  background: var(--red);
+  border-top: 2px solid var(--black);
+  z-index: 400; display: none;
+  padding: 14px 20px; text-align: center;
+}
+.sticky-bar a {
+  color: var(--white);
+  font-family: var(--font-head);
+  font-weight: 700; font-size: 17px;
+  letter-spacing: 0.5px;
+}
+
+/* ════════════════════════════════════════════
+   RESPONSIVE
+════════════════════════════════════════════ */
+@media(max-width: 640px) {
+  :root { --section-dk: 56px; --section-lt: 52px; }
+  .sticky-bar { display: block; }
+  body { padding-bottom: 62px; }
+  .hero { padding: 56px 0 48px; min-height: auto; }
+  .hero h1 { letter-spacing: -0.02em; }
+  .btn-hero-primary { width: 100%; justify-content: center; }
+  .btn-hero-wa { width: 100%; justify-content: center; }
+  .hero-stats { border-top: 1px solid var(--light-rule); }
+}
+
+@media(prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+
+/* ════════════════════════════════════════
+   INSTAGRAM GALLERY — lightweight, no SDK
+════════════════════════════════════════ */
+.instagram-section {
+  background: var(--charcoal);
+  border-top: 1px solid var(--light-rule);
+  padding: var(--section-dk) 0;
+}
+.ig-header {
+  display: grid; grid-template-columns: 1fr auto;
+  gap: 24px; align-items: end; margin-bottom: 36px;
+}
+@media(max-width:640px) { .ig-header { grid-template-columns: 1fr; gap: 16px; } }
+.ig-handle {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 13px; font-weight: 600; color: var(--silver);
+  border: 1px solid var(--light-rule); padding: 9px 16px;
+  border-radius: 24px; transition: border-color 0.15s;
+  white-space: nowrap; text-decoration: none;
+}
+.ig-handle:hover { border-color: rgba(255,255,255,0.3); color: var(--white); }
+.ig-handle::before {
+  content: '';
+  display: block; width: 18px; height: 18px; flex-shrink: 0;
+  background: linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
+  border-radius: 5px;
+}
+.ig-trust-note {
+  font-size: 15px; color: var(--mist); line-height: 1.7;
+  max-width: 620px; margin-bottom: 32px;
+}
+.ig-trust-note strong { color: var(--silver); }
+
+.ig-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 4px;
+}
+@media(max-width:900px) { .ig-grid { grid-template-columns: repeat(3, 1fr); } }
+@media(max-width:540px) { .ig-grid { grid-template-columns: repeat(2, 1fr); } }
+.ig-item {
+  position: relative; aspect-ratio: 1/1;
+  overflow: hidden; display: block;
+  background: var(--card-dark);
+}
+.ig-item::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(135deg,rgba(229,9,20,0.0),rgba(229,9,20,0.0));
+  transition: background 0.25s; pointer-events: none;
+}
+.ig-item:hover::after { background: linear-gradient(135deg,rgba(229,9,20,0.18),rgba(0,0,0,0.35)); }
+.ig-placeholder {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform 0.35s ease; display: block;
+  background: var(--card-dark);
+}
+.ig-item:hover .ig-placeholder { transform: scale(1.06); }
+/* Overlay icon on hover */
+.ig-item-icon {
+  position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%,-50%) scale(0.6);
+  opacity: 0; font-size: 22px;
+  transition: opacity 0.2s, transform 0.2s;
+  z-index: 2; pointer-events: none;
+}
+.ig-item:hover .ig-item-icon { opacity: 1; transform: translate(-50%,-50%) scale(1); }
+
+.ig-cta-row {
+  margin-top: 28px; display: flex; align-items: center;
+  gap: 16px; flex-wrap: wrap;
+}
+.btn-ig {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: transparent;
+  border: 1px solid var(--light-rule);
+  color: var(--silver); font-size: 13px; font-weight: 600;
+  padding: 11px 22px; border-radius: 3px;
+  transition: border-color 0.15s, color 0.15s;
+}
+.btn-ig:hover { border-color: rgba(255,255,255,0.4); color: var(--white); }
+
+/* ════════════════════════════════════════
+   SPANISH / BILINGUAL SECTION
+════════════════════════════════════════ */
+.spanish-section {
+  background: var(--black);
+  border-top: 1px solid var(--light-rule);
+  padding: 64px 0;
+}
+.spanish-inner {
+  max-width: var(--wrap); margin: 0 auto; padding: 0 32px;
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 64px; align-items: center;
+}
+@media(max-width:768px) { .spanish-inner { grid-template-columns: 1fr; gap: 32px; } }
+@media(max-width:640px) { .spanish-inner { padding: 0 20px; } }
+.spanish-tag {
+  display: inline-block; font-size: 10px; font-weight: 700;
+  letter-spacing: 2px; text-transform: uppercase;
+  background: rgba(255,255,255,0.06); border: 1px solid var(--light-rule);
+  color: var(--mist); padding: 5px 12px; border-radius: 2px;
+  margin-bottom: 18px;
+}
+.spanish-h2 {
+  font-family: var(--font-head);
+  font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+  font-weight: 900; text-transform: uppercase;
+  letter-spacing: -0.02em; color: var(--white);
+  line-height: 1.1; margin-bottom: 12px;
+}
+.spanish-sub {
+  font-size: 15px; color: var(--silver);
+  line-height: 1.7; max-width: 420px;
+}
+.spanish-actions {
+  display: flex; flex-direction: column; gap: 12px;
+}
+.btn-spanish-primary {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; background: var(--red); color: var(--white);
+  font-family: var(--font-head);
+  font-size: 14px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.5px;
+  padding: 16px 22px; border-radius: 3px; min-height: 54px;
+  transition: background 0.15s;
+}
+.btn-spanish-primary:hover { background: var(--red-dk); }
+.btn-spanish-wa {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; background: rgba(255,255,255,0.06);
+  border: 1px solid var(--light-rule); color: var(--white);
+  font-size: 14px; font-weight: 500;
+  padding: 16px 22px; border-radius: 3px; min-height: 54px;
+  transition: background 0.15s;
+}
+.btn-spanish-wa:hover { background: rgba(255,255,255,0.10); }
+.btn-spanish-note {
+  font-size: 12px; color: var(--mist); line-height: 1.5;
+  padding-top: 4px;
+}
+
+/* ════════════════════════════════════════
+   LOCATION & MAP SECTION
+════════════════════════════════════════ */
+.location-section {
+  background: var(--lt-bg);
+  border-top: 3px solid var(--red);
+  padding: var(--section-lt) 0;
+}
+.location-layout {
+  display: grid; grid-template-columns: 1fr 1.4fr;
+  gap: 56px; align-items: start;
+}
+@media(max-width:768px) { .location-layout { grid-template-columns: 1fr; gap: 36px; } }
+.location-details { display: flex; flex-direction: column; gap: 22px; }
+.loc-detail { display: flex; gap: 14px; align-items: flex-start; }
+.loc-icon { font-size: 20px; margin-top: 2px; flex-shrink: 0; }
+.loc-label {
+  font-size: 10px; font-weight: 700; letter-spacing: 2px;
+  text-transform: uppercase; color: #999;
+  margin-bottom: 4px; display: block;
+}
+.loc-val {
+  font-size: 16px; font-weight: 500; color: var(--lt-text);
+  line-height: 1.5;
+}
+.loc-val a { color: var(--lt-text); }
+.loc-val a:hover { color: var(--red); }
+.loc-facility-facts {
+  background: var(--lt-card);
+  border: 1px solid var(--lt-border);
+  border-left: 3px solid var(--red);
+  padding: 20px 20px; border-radius: 3px;
+  margin-top: 4px;
+}
+.loc-fact {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 14px; color: var(--lt-muted);
+  padding: 6px 0; border-bottom: 1px solid var(--lt-border);
+}
+.loc-fact:last-child { border-bottom: none; padding-bottom: 0; }
+.loc-fact::before { content: '✓'; color: var(--red); font-weight: 700; font-size: 12px; flex-shrink: 0; }
+.loc-fact strong { color: var(--lt-text); }
+.btn-directions {
+  display: inline-flex; align-items: center; gap: 9px;
+  background: var(--red); color: var(--white);
+  font-family: var(--font-head);
+  font-size: 14px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.5px;
+  padding: 15px 26px; border-radius: 3px; min-height: 52px;
+  transition: background 0.15s; margin-top: 8px;
+}
+.btn-directions:hover { background: var(--red-dk); }
+.map-wrapper {
+  position: relative; border-radius: 4px;
+  overflow: hidden; border: 1px solid var(--lt-border);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.10);
+  aspect-ratio: 4/3;
+}
+.map-wrapper iframe {
+  width: 100%; height: 100%; border: 0; display: block;
+}
+@media(max-width:768px) { .map-wrapper { aspect-ratio: 16/9; } }
+
+/* ════════════════════════════════════════
+   SERVICE AREA — Broward + Miami-Dade
+════════════════════════════════════════ */
+.area-full-section {
+  background: var(--black);
+  border-top: 1px solid var(--light-rule);
+  padding: var(--section-dk) 0;
+}
+.area-full-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 48px; margin-top: 48px;
+}
+@media(max-width:768px) { .area-full-grid { grid-template-columns: 1fr; gap: 36px; } }
+.area-county {
+  background: var(--card-dark);
+  border: 1px solid var(--light-rule);
+  border-top: 2px solid var(--red);
+  border-radius: 4px; padding: 28px 28px;
+}
+.area-county-name {
+  font-family: var(--font-head);
+  font-size: 13px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 1px;
+  color: var(--red); margin-bottom: 18px; display: block;
+}
+.area-city-list {
+  list-style: none; columns: 2; column-gap: 16px;
+}
+@media(max-width:480px) { .area-city-list { columns: 1; } }
+.area-city-list li {
+  font-size: 14px; color: var(--mist); padding: 7px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  line-height: 1.35; break-inside: avoid;
+}
+.area-city-list li:last-child { border-bottom: none; }
+.area-city-list li span {
+  font-size: 11px; color: #444; display: block; margin-top: 1px;
+}
+.area-full-note {
+  margin-top: 32px; padding: 20px 24px;
+  background: var(--card-dark);
+  border: 1px solid var(--light-rule);
+  border-left: 3px solid var(--red);
+  border-radius: 3px;
+  font-size: 14px; color: var(--mist); line-height: 1.7;
+}
+.area-full-note strong { color: var(--silver); }
+
+/* ════════════════════════════════════════
+   SCHEMA — LocalBusiness update for area
+════════════════════════════════════════ */
+
+
+/* ════════════════════════════
+   SCROLL TO TOP
+════════════════════════════ */
+.scroll-top {
+  position: fixed; bottom: 80px; right: 24px;
+  width: 44px; height: 44px;
+  background: var(--card-dark);
+  border: 1px solid var(--light-rule);
+  color: var(--silver);
+  border-radius: 3px;
+  display: none;
+  align-items: center; justify-content: center;
+  font-size: 16px; z-index: 250;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  cursor: pointer; text-decoration: none;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+}
+.scroll-top:hover {
+  background: var(--red); color: var(--white);
+  border-color: var(--red);
+}
+@media(max-width:640px) {
+  .scroll-top { bottom: 74px; right: 16px; width: 40px; height: 40px; }
+}
+
+</style>
 </head>
-
 <body>
-    <header>
-        <section id="header" class="containers">
-            <section class="inner-section">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Navbar</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#our-about">About</a>
-                                </li>
-                                <!-- <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Services
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">Custom Logo Design</a></li>
-                                        <li><a class="dropdown-item" href="#">Logo Redesign</a></li>
-                                        <li><a class="dropdown-item" href="#">Brand Identity Package</a></li>
-                                        <li><a class="dropdown-item" href="#">3D Logo Design</a></li>
-                                        <li><a class="dropdown-item" href="#">T-Shirt Design</a></li>
-                                        <li><a class="dropdown-item" href="#">Business Card Design</a></li>
-                                        <li><a class="dropdown-item" href="#">Letter Head Design</a></li>
-                                        <li><a class="dropdown-item" href="#">Menu Design</a></li>
-                                        <li><a class="dropdown-item" href="#">ID Card Design</a></li>
-                                        <li><a class="dropdown-item" href="#">Background Removal</a></li>
-                                        <li><a class="dropdown-item" href="#">Social Media Design</a></li>
-                                        <li><a class="dropdown-item" href="#">Brochure Design</a></li>
-                                        <li><a class="dropdown-item" href="#">Envelope Design</a></li>
-                                        <li><a class="dropdown-item" href="#">Catalog Design</a></li>
-                                        <li><a class="dropdown-item" href="#">Flayer Design</a></li>
-                                        <li><a class="dropdown-item" href="#">Website Design</a></li>
-                                    </ul>
-                                </li> -->
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#most-popular-service">Services</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#packeges">Packeges</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#testimonial">Review</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Blog</a>
-                                </li>
-                            </ul>
-                            <a href="#"><button class="header-btn add-right-margin">Whatsapp</button></a>
-                            <a href="#"><button class="header-btn">Live Chat</button></a>
-                        </div>
-                    </div>
-                </nav>
-            </section>
-        </section>
-    </header>
-    <main>
-        <section id="hero" class="containers">
-            <section class="inner-section">
-                <div class="hero-main-box">
-                    <div class="hero-main-box-left">
-                        <h1 class="hearo-main-heading">Type is what meaning looks like.</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo delectus incidunt alias optio
-                            magnam, aliquid unde exercitationem, sit sed placeat nemo dicta dolorem fugiat eveniet
-                            maiores cumque repudiandae laborum omnis veniam nisi. Velit dolor ut culpa. Facilis quam
-                            natus magni.</p>
-                        <button class="header-btn adjust-margin">Discover More</button>
-                    </div>
-                    <div class="hero-main-box-right">
-                       <div class="conact-form">
-                        <form action="">
-                            <h4 class="contact-form-heading">EXCLUSIVE OFFER</h4>
-                            <p class="contact-form-description"><span>20%</span>OFF</p>
-                            <input type="text" name="" placeholder="Name" required class="input-box-adjust">
-                            <input type="email" name="" placeholder="Email" required class="input-box-adjust">
-                            <input type="number" name="" placeholder="Phone Number" required class="input-box-adjust">
-                            <textarea name="textarea" id="" placeholder="Message" class="textarea-style" required></textarea>
-                            <input type="checkbox" name="checkbox" id="checkbox" required ><label for="checkbox" class="label-text-style">I have a agree <a href="#"> trem and condition </a></label>
-                            <input type="submit" value="Send Message" class="submit-btn-style">
-                        </form>
-                       </div>
-                    </div>
-                </div>
-            </section>
-        </section>
-         <section id="our-about" class="containers">
-            <section class="inner-section">
-                <div class="our-about-main-box">
-                    <div class="our-about-left">
-                        <span class="our-about-title">Our About</span>
-                        <h2 class="our-about-left-heading">Type design is about function. Drawing pretty shapes isn't
-                            enough.</h2>
-                    </div>
-                    <div class="our-about-right">
-                        <p class="our-about-right-description">Penatibus maximus suscipit class pellentesque platea.
-                            Convallis letius vel curabitur ridiculus ante. Montes congue tellus placerat. Habitant
-                            vulputate lacinia cursus elit finibus. Sodales ultrices quis risus elementum. Purus suscipit
-                            dapibus taciti volutpat tristique. Donec elit justo dapibus. Per mollis tortor leo maximus
-                            sem.</p>
-                        <p class="our-about-right-description">Mus vivamus tristique commodo. Pretium nulla rhoncus
-                            adipiscing fringilla maximus. Maximus sed auctor integer dapibus fringilla quisque dictumst.
-                            Platea senectus aliquam eget. Rhoncus vestibulum magna dui hendrerit venenatis lectus
-                            ridiculus. Vel magna tempor imperdiet. Leo pede ipsum erat sollicitudin commodo cursus amet.
-                            Parturient imperdiet nunc gravida per neque in.</p>
-                    </div>
-                </div>
-            </section>
-        </section>
-         <section id="choose-us" class="containers">
-            <section class="inner-section">
-                <div class="choose-us-main-box">
-                    <div class="choose-us-main-box-left">
-                        <img src="./assets/Images/choose-us.jpg" alt="Choose-us" class="choose-us">
-                    </div>
-                    <div class="choose-us-main-box-right">
-                        <span class="our-about-title">Why Choose Us</span>
-                        <h2 class="choose-us-main-box-right-heading">Professional, Experienced and Affordable</h2>
-                        <p class="choose-us-main-box-right-description">Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                        <div class="choose-us-main-box-right-sub-box">
-                            <div class="choose-us-main-box-right-sub-box-left">
-                                <i class='bx bxl-unity'></i>
-                                <h3 class="choose-us-main-box-right-sub-box-left-heading">LOGO DESIGN</h3>
-                                <p class="choose-us-main-box-right-sub-box-left-description">Bibendum ad gravida hac
-                                    auctor et risus eleifend viverra neque nunc ac</p>
-                            </div>
-                            <div class="choose-us-main-box-right-sub-box-right">
-                                <i class='bx bxl-unity'></i>
-                                <h3 class="choose-us-main-box-right-sub-box-left-heading">T-SHIRT DESIGN</h3>
-                                <p class="choose-us-main-box-right-sub-box-left-description">Bibendum ad gravida hac
-                                    auctor et risus eleifend viverra neque nunc ac</p>
-                            </div>
-                            <div class="choose-us-main-box-right-sub-box-right">
-                                <i class='bx bxl-unity'></i>
-                                <h3 class="choose-us-main-box-right-sub-box-left-heading">CATALOG DESIGN </h3>
-                                <p class="choose-us-main-box-right-sub-box-left-description">Bibendum ad gravida hac
-                                    auctor et risus eleifend viverra neque nunc ac</p>
-                            </div>
-                            <div class="choose-us-main-box-right-sub-box-right">
-                                <i class='bx bxl-unity'></i>
-                                <h3 class="choose-us-main-box-right-sub-box-left-heading">Flayer Design</h3>
-                                <p class="choose-us-main-box-right-sub-box-left-description">Bibendum ad gravida hac
-                                    auctor et risus eleifend viverra neque nunc ac</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </section>
-        <section id="most-popular-service" class="containers">
-            <section class="inner-section">
-                <span class="Feature-title">Our Feature</span>
-                <h2 class="most-popular-service-heading">Feature CV Writer UK for Career Progression</h2>
-                <p class="most-popular-service-first-description">You won't find competent and skillful CV builders
-                    elsewhere in Uk. <span class="display-block">Finding a new job can be quite a hassle, especially if
-                        you have recently graduated.</span></p>
-                <div class="most-popular-service-main-box">
-                    <div class="most-popular-service-main-box-sub-box">
-                        <i class='bx bx-pen'></i>
-                        <h3 class="sub-heading">Custom Logo Design</h3>
-                        <p class="most-popular-service-description">Bibendum ad gravida hac auctor et risus eleifend
-                            viverra neque nunc ac</p>
-                    </div>
-                    <div class="most-popular-service-main-box-sub-box">
-                        <i class='bx bx-pen'></i>
-                        <h3 class="sub-heading">Logo <span class="display-block">Redesign</span></h3>
-                        <p class="most-popular-service-description">Bibendum ad gravida hac auctor et risus eleifend
-                            viverra neque nunc ac</p>
-                    </div>
-                    <div class="most-popular-service-main-box-sub-box">
-                        <i class='bx bx-pen'></i>
-                        <h3 class="sub-heading">Brand Identity Package</h3>
-                        <p class="most-popular-service-description">Bibendum ad gravida hac auctor et risus eleifend
-                            viverra neque nunc ac</p>
-                    </div>
-                    <div class="most-popular-service-main-box-sub-box">
-                        <i class='bx bx-pen'></i>
-                        <h3 class="sub-heading">3D Logo <span class="display-block">Design</span></h3>
-                        <p class="most-popular-service-description">Bibendum ad gravida hac auctor et risus eleifend
-                            viverra neque nunc ac</p>
-                    </div>
-                    <div class="most-popular-service-main-box-sub-box">
-                        <i class='bx bx-pen'></i>
-                        <h3 class="sub-heading">T-Shirt <span class="display-block">Design</span></h3>
-                        <p class="most-popular-service-description">Bibendum ad gravida hac auctor et risus eleifend
-                            viverra neque nunc ac</p>
-                    </div>
-                    <div class="most-popular-service-main-box-sub-box">
-                        <i class='bx bx-pen'></i>
-                        <h3 class="sub-heading">Business Card Design</h3>
-                        <p class="most-popular-service-description">Bibendum ad gravida hac auctor et risus eleifend
-                            viverra neque nunc ac</p>
-                    </div>
-                    <div class="most-popular-service-main-box-sub-box">
-                        <i class='bx bx-pen'></i>
-                        <h3 class="sub-heading">Letter Head Design</h3>
-                        <p class="most-popular-service-description">Bibendum ad gravida hac auctor et risus eleifend
-                            viverra neque nunc ac</p>
-                    </div>
-                    <div class="most-popular-service-main-box-sub-box">
-                        <i class='bx bx-pen'></i>
-                        <h3 class="sub-heading">Menu <span class="display-block">Design</span></h3>
-                        <p class="most-popular-service-description">Bibendum ad gravida hac auctor et risus eleifend
-                            viverra neque nunc ac</p>
-                    </div>
-                    <div class="most-popular-service-main-box-sub-box">
-                        <i class='bx bx-pen'></i>
-                        <h3 class="sub-heading">ID Card <span class="display-block">Design</span></h3>
-                        <p class="most-popular-service-description">Bibendum ad gravida hac auctor et risus eleifend
-                            viverra neque nunc ac</p>
-                    </div>
-                    <div class="most-popular-service-main-box-sub-box">
-                        <i class='bx bx-pen'></i>
-                        <h3 class="sub-heading">Background Removal</h3>
-                        <p class="most-popular-service-description">Bibendum ad gravida hac auctor et risus eleifend
-                            viverra neque nunc ac</p>
-                    </div>
-                    <div class="most-popular-service-main-box-sub-box">
-                        <i class='bx bx-pen'></i>
-                        <h3 class="sub-heading">Social Media <span class="display-block">Design</span></h3>
-                        <p class="most-popular-service-description">Bibendum ad gravida hac auctor et risus eleifend
-                            viverra neque nunc ac</p>
-                    </div>
-                    <div class="most-popular-service-main-box-sub-box">
-                        <i class='bx bx-pen'></i>
-                        <h3 class="sub-heading">Brochure <span class="display-block">Design</span></h3>
-                        <p class="most-popular-service-description">Bibendum ad gravida hac auctor et risus eleifend
-                            viverra neque nunc ac</p>
-                    </div>
-                    <div class="most-popular-service-main-box-sub-box">
-                        <i class='bx bx-pen'></i>
-                        <h3 class="sub-heading">Envelope <span class="display-block">Design</span></h3>
-                        <p class="most-popular-service-description">Bibendum ad gravida hac auctor et risus eleifend
-                            viverra neque nunc ac</p>
-                    </div>
-                    <div class="most-popular-service-main-box-sub-box">
-                        <i class='bx bx-pen'></i>
-                        <h3 class="sub-heading">Catalog <span class="display-block">Design</span></h3>
-                        <p class="most-popular-service-description">Bibendum ad gravida hac auctor et risus eleifend
-                            viverra neque nunc ac</p>
-                    </div>
-                    <div class="most-popular-service-main-box-sub-box">
-                        <i class='bx bx-pen'></i>
-                        <h3 class="sub-heading">Flayer <span class="display-block">Design</span></h3>
-                        <p class="most-popular-service-description">Bibendum ad gravida hac auctor et risus eleifend
-                            viverra neque nunc ac</p>
-                    </div>
-                    <div class="most-popular-service-main-box-sub-box">
-                        <i class='bx bx-pen'></i>
-                        <h3 class="sub-heading">Website <span class="display-block">Design</span></h3>
-                        <p class="most-popular-service-description">Bibendum ad gravida hac auctor et risus eleifend
-                            viverra neque nunc ac</p>
-                    </div>
-                </div>
-            </section>
-        </section>
-       <section id="master-pice" class="containers">
-            <section class="inner-section">
-                <div class="master-pice-main-box">
-                    <div class="master-pice-main-box-left">
-                        <h2 class="master-pice-main-box-left-heading">Develop a Stunning Masterpiece with our Best Logo
-                            Design Company in the USA</h2>
-                        <p class="master-pice-main-box-left-description">For brands who are struggling to maintain their
-                            rich status in the eyes of clients or those who want to build a logo from scratch, a graphic
-                            design logo from Logo Magicians is the ideal option among many logo design agencies. As a
-                            custom logo design company, we have been in the market for about a decade, making the most
-                            creative logo designs of all time, and have delivered spectacular logo designs to businesses
-                            in almost all industries. We are the best logo design company in USA that improves tons of
-                            brand’s visual aesthetics and lets their clients emotionally connect with the brand by
-                            designing a distinct, creative, modern, timeless, and memorable logo.</p>
-                        <p class="master-pice-main-box-left-description">Our top logo design services in the USA use a
-                            structured design process that is not confined to simple logo design. We first dig deeper
-                            into learning your brand storytelling, buyer persona, and competitor analyses. Then, our
-                            expert logo designers use their design expertise to craft a brand logo design that lights up
-                            your brand value, entrancing your aim audience that lasts long.</p>
-                        <p class="master-pice-main-box-left-description">Get in touch with us and get insights into how
-                            our custom logo design services near me performs each step in logo design online, from
-                            brainstorming brilliant company logo design ideas to ensuring its scalability and
-                            adaptability and, finally, its long-lasting impact.</p>
-                    </div>
-                    <div class="master-pice-main-box-right">
-                        <img src="./assets/Images/logo_magician_new_7_07.webp" alt="Master-Pice"
-                            class="Master-Pice-image">
-                    </div>
-                </div>
-            </section>
-        </section>
-        <section id="design-solutions" class="containers">
-            <section class="inner-section">
-                <span class="Feature-title">Design Solutions</span>
-                <h2 class="design-solutions-heading">Explore inclusive design solutions from our professional logo
-                    design agency in the USA</h2>
-                <div class="design-solutions-main-box">
-                    <div class="design-solutions-main-box-left">
-                        <div class="design-solutions-main-box-left-image-box">
-                            <img src="./assets/Images/branding-design.png" alt="Branding Design"
-                                class="branding-design">
-                        </div>
-                        <h3 class="Branding-heading">Health Logo Design</h3>
-                        <p class="Branding-description">Craft creative and modern designs from our graphics branding
-                            services for your variety of digital and print assets to visually
-                            show your brand qualities and well position
-                            yourself in the market.</p>
-                        <button class="header-btn adjust-margin">Learn More</button>
-                    </div>
-                    <div class="design-solutions-main-box-left">
-                        <div class="design-solutions-main-box-left-image-box">
-                            <img src="./assets/Images/UI-UX-Design.png" alt="Branding Design" class="branding-design">
-                        </div>
-                        <h3 class="Branding-heading">Travel Logo Design</h3>
-                        <p class="Branding-description">Craft creative and modern designs from our graphics branding
-                            services for your variety of digital and print assets to visually
-                            show your brand qualities and well position
-                            yourself in the market.</p>
-                        <button class="header-btn adjust-margin">Learn More</button>
-                    </div>
-                    <div class="design-solutions-main-box-left">
-                        <div class="design-solutions-main-box-left-image-box">
-                            <img src="./assets/Images/web-design.png" alt="Branding Design" class="branding-design">
-                        </div>
-                        <h3 class="Branding-heading">Restaurant Logo Design</h3>
-                        <p class="Branding-description">Craft creative and modern designs from our graphics branding
-                            services for your variety of digital and print assets to visually
-                            show your brand qualities and well position
-                            yourself in the market.</p>
-                        <button class="header-btn adjust-margin">Learn More</button>
-                    </div>
-                    <div class="design-solutions-main-box-left">
-                        <div class="design-solutions-main-box-left-image-box">
-                            <img src="./assets/Images/branding-design.png" alt="Branding Design"
-                                class="branding-design">
-                        </div>
-                        <h3 class="Branding-heading">Academy Logo Design</h3>
-                        <p class="Branding-description">Craft creative and modern designs from our graphics branding
-                            services for your variety of digital and print assets to visually
-                            show your brand qualities and well position
-                            yourself in the market.</p>
-                        <button class="header-btn adjust-margin">Learn More</button>
-                    </div>
-                    <div class="design-solutions-main-box-left">
-                        <div class="design-solutions-main-box-left-image-box">
-                            <img src="./assets/Images/branding-design.png" alt="Branding Design"
-                                class="branding-design">
-                        </div>
-                        <h3 class="Branding-heading">Company Logo Design</h3>
-                        <p class="Branding-description">Craft creative and modern designs from our graphics branding
-                            services for your variety of digital and print assets to visually
-                            show your brand qualities and well position
-                            yourself in the market.</p>
-                        <button class="header-btn adjust-margin">Learn More</button>
-                    </div>
-                    <div class="design-solutions-main-box-left">
-                        <div class="design-solutions-main-box-left-image-box">
-                            <img src="./assets/Images/branding-design.png" alt="Branding Design"
-                                class="branding-design">
-                        </div>
-                        <h3 class="Branding-heading">Technology Logo Design</h3>
-                        <p class="Branding-description">Craft creative and modern designs from our graphics branding
-                            services for your variety of digital and print assets to visually
-                            show your brand qualities and well position
-                            yourself in the market.</p>
-                        <button class="header-btn adjust-margin">Learn More</button>
-                    </div>
-                    <div class="design-solutions-main-box-left">
-                        <div class="design-solutions-main-box-left-image-box">
-                            <img src="./assets/Images/branding-design.png" alt="Branding Design"
-                                class="branding-design">
-                        </div>
-                        <h3 class="Branding-heading">Social Media Logo Design</h3>
-                        <p class="Branding-description">Craft creative and modern designs from our graphics branding
-                            services for your variety of digital and print assets to visually
-                            show your brand qualities and well position
-                            yourself in the market.</p>
-                        <button class="header-btn adjust-margin">Learn More</button>
-                    </div>
-                    <div class="design-solutions-main-box-left">
-                        <div class="design-solutions-main-box-left-image-box">
-                            <img src="./assets/Images/branding-design.png" alt="Branding Design"
-                                class="branding-design">
-                        </div>
-                        <h3 class="Branding-heading">Sports Logo Design</h3>
-                        <p class="Branding-description">Craft creative and modern designs from our graphics branding
-                            services for your variety of digital and print assets to visually
-                            show your brand qualities and well position
-                            yourself in the market.</p>
-                        <button class="header-btn adjust-margin">Learn More</button>
-                    </div>
-                </div>
-            </section>
-        </section>
-        <section id="hire-logo" class="containers">
-            <section class="inner-section">
-                <div class="hire-logo-main-box">
-                    <div class="hire-logo-main-box-left">
-                        <h3 class="hire-logo-main-box-left-heading">Hire a logo designer from
-                            our best logo design company</h3>
-                    </div>
-                    <div class="hire-logo-main-box-right">
-                        <a href="#"><button class="header-btn add-right-margin">Order Now</button></a>
-                        <a href="#"><button class="header-btn adjust-margin">Live Chat</button></a>
-                    </div>
-                </div>
-            </section>
-        </section>
-        <section id="be-visibale" class="containers">
-            <section class="inner-section">
-                <div class="visibale-main-box">
-                    <div class="visibale-main-box-left">
-                        <span class="our-about-title">Be Visible</span>
-                        <h2 class="be-visibale-heading">Beautify Your Brand with a Professional Logo Design</h2>
-                        <p class="be-visibale-description">Startups, small businesses, and enterprises can brand their offerings through custom logo designs, branding design solutions, and the web design expertise of Logo Design Valley.</p>
-                    </div>
-                    <div class="visibale-main-box-right">
-                        <h3 class="visibale-main-box-right-heading">7+ YEARS OF EXPERIENCE</h3>
-                        <p class="visibale-main-box-right-description">We are dedicated to providing outstanding digital and design services that deliver both functionality and aesthetic appeal, ensuring your brand stands out and achieves its goals.</p>
-                    </div>
-                </div>
-            </section>
-        </section>
-        <section id="packeges" class="containers">
-            <section class="inner-section">
-                <span class="Feature-title">PRICING</span>
-                <h2 class="packeges-main-heading">Our Packages</h2>
-                <p class="packeges-description">We Provide the Best Prices for Business</p>
-                <div class="packeges-main-box">
-                    <div class="packeges-main-box-sub-box">
-                        <div class="packeges-main-box-sub-box-second-box">
-                            <h3 class="package-title">Basic Package</h3>
-                            <p class="package-title-description">Lorem ipsum dolor sit amet.</p>
-                            <h4 class="packeges-prices">PKR 2000</h4>
-                        </div>
-                        <div class="pakeges-service-title">
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>3 Custom Design Concepts</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>1 Creative Designer</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>File Formats (JPEG, PNG, PDF)</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>Five Revisions</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>Delivery in 2-3 Business Days</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>24 X 7 Support</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>100% Ownership Rights</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>100% Satisfaction Guaranteed</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>100% Money Back Guarantee</p>
-                        </div>
-                        <div class="package-btn-box">
-                            <a href="#"><button class="package-btn-box-button-style">STARTED NOW</button></a>
-                        </div>
-                    </div>
-                    <div class="packeges-main-box-sub-box">
-                        <div class="packeges-main-box-sub-box-second-box">
-                            <h3 class="package-title">Startup Package</h3>
-                            <p class="package-title-description">Lorem ipsum dolor sit amet.</p>
-                            <h4 class="packeges-prices">Rs : 4000</h4>
-                        </div>
-                        <div class="pakeges-service-title">
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>4 Custom Design Concepts</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>2 Creative Designer</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>File Formats (JPEG, PNG, PDF, PSD)</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>Seven Revisions</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>Delivery in 3-4 Business Days</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>24 X 7 Support</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>100% Ownership Rights</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>100% Satisfaction Guaranteed</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>100% Money Back Guarantee</p>
-                        </div>
-                        <div class="package-btn-box">
-                            <a href="#"><button class="package-btn-box-button-style">STARTED NOW</button></a>
-                        </div>
-                    </div>
-                    <div class="packeges-main-box-sub-box">
-                        <div class="packeges-main-box-sub-box-second-box">
-                            <h3 class="package-title">Unlimited Package</h3>
-                            <p class="package-title-description">Lorem ipsum dolor sit amet.</p>
-                            <h4 class="packeges-prices">Rs : 7000</h4>
-                        </div>
-                        <div class="pakeges-service-title">
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>8 Custom Design Concepts</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>3 Creative Designer</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>File Formats (JPEG, PNG, PDF, PSD, AI)</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>Unlimited Revisions</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>Delivery in 5-6 Business Days</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>24 X 7 Support</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>100% Ownership Rights</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>100% Satisfaction Guaranteed</p>
-                            <p class="pakeges-service-title-para"><i class='bx bx-check'></i>100% Money Back Guarantee</p>
-                        </div>
-                        <div class="package-btn-box">
-                            <a href="#"><button class="package-btn-box-button-style">STARTED NOW</button></a>
-                        </div>
-                    </div>
+<a class="skip" href="#main">Skip to main content</a>
 
-                </div>
-            </section>
-        </section>
-        <section id="testimonial" class="containers">
-            <section class="inner-section">
-                <span class="Feature-title">TESTIMONIAL</span>
-                <h2 class="teatimonial-heading">What They Say</h2>
-                <p class="testimonial-description">Professional CV Writing UK: As a perfect resume agency offers the trusted CV writing service at <span class="display-block"> affordable & cheap prices with the expert writers team</span></p>
-                <div class="testimonial-main-box">
-                    <div class="testimonials-content">
-                        <div class="swiper testimonials-slider js-testimonial-slider">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide testimonials-item">
-                                    <div class="info">
-                                        <img src="./assets/Images/first-testimonial.png" alt="Testimonial Image">
-                                    </div>
-                                    <div class="info-text-box">
-                                        <div class="info-text-sub-box">
-                                            <h4 class="writer-name-testimonial">Jonathan K</h4>
-                                            <p class="simple-text-testimonial">100% Turnitin Pass Guaranted!</p>
-                                        </div>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur recusandae ab
-                                        praesentium quas, a perferendis impedit rem consequuntur eum sunt fugiat nesciunt
-                                        nostrum, aut quasi. Consequuntur vel error excepturi facere.</p>
-                                    </div>
-                                    <div class="rating">
-                                      <p class="rating-text" style="font-size: 12px !important;;">Project Delivered : 500+</p>
-                                      <p class="rating-text add-border-right-and-left" style="font-size: 12px !important; ">Expertise : Research Reports</p>
-                                      <p class="rating-text" style="font-size: 12px !important;;">Average Experience : 6 Years</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide testimonials-item">
-                                    <div class="info">
-                                        <img src="./assets/Images/first-testimonial.png" alt="Testimonial Image">
-                                    </div>
-                                    <div class="info-text-box">
-                                        <div class="info-text-sub-box">
-                                            <h4 class="writer-name-testimonial">Jonathan K</h4>
-                                            <p class="simple-text-testimonial">100% Turnitin Pass Guaranted!</p>
-                                        </div>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur recusandae ab
-                                        praesentium quas, a perferendis impedit rem consequuntur eum sunt fugiat nesciunt
-                                        nostrum, aut quasi. Consequuntur vel error excepturi facere.</p>
-                                    </div>
-                                    <div class="rating">
-                                      <p class="rating-text" style="font-size: 12px !important;;">Project Delivered : 500+</p>
-                                      <p class="rating-text add-border-right-and-left" style="font-size: 12px !important; ">Expertise : Research Reports</p>
-                                      <p class="rating-text" style="font-size: 12px !important;;">Average Experience : 6 Years</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide testimonials-item">
-                                    <div class="info">
-                                        <img src="./assets/Images/first-testimonial.png" alt="Testimonial Image">
-                                    </div>
-                                    <div class="info-text-box">
-                                        <div class="info-text-sub-box">
-                                            <h4 class="writer-name-testimonial">Jonathan K</h4>
-                                            <p class="simple-text-testimonial">100% Turnitin Pass Guaranted!</p>
-                                        </div>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur recusandae ab
-                                        praesentium quas, a perferendis impedit rem consequuntur eum sunt fugiat nesciunt
-                                        nostrum, aut quasi. Consequuntur vel error excepturi facere.</p>
-                                    </div>
-                                    <div class="rating">
-                                      <p class="rating-text" style="font-size: 12px !important;;">Project Delivered : 500+</p>
-                                      <p class="rating-text add-border-right-and-left" style="font-size: 12px !important; ">Expertise : Research Reports</p>
-                                      <p class="rating-text" style="font-size: 12px !important;;">Average Experience : 6 Years</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide testimonials-item">
-                                    <div class="info">
-                                        <img src="./assets/Images/first-testimonial.png" alt="Testimonial Image">
-                                    </div>
-                                    <div class="info-text-box">
-                                        <div class="info-text-sub-box">
-                                            <h4 class="writer-name-testimonial">Jonathan K</h4>
-                                            <p class="simple-text-testimonial">100% Turnitin Pass Guaranted!</p>
-                                        </div>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur recusandae ab
-                                        praesentium quas, a perferendis impedit rem consequuntur eum sunt fugiat nesciunt
-                                        nostrum, aut quasi. Consequuntur vel error excepturi facere.</p>
-                                    </div>
-                                    <div class="rating">
-                                      <p class="rating-text" style="font-size: 12px !important;;">Project Delivered : 500+</p>
-                                      <p class="rating-text add-border-right-and-left" style="font-size: 12px !important; ">Expertise : Research Reports</p>
-                                      <p class="rating-text" style="font-size: 12px !important;;">Average Experience : 6 Years</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide testimonials-item">
-                                    <div class="info">
-                                        <img src="./assets/Images/first-testimonial.png" alt="Testimonial Image">
-                                    </div>
-                                    <div class="info-text-box">
-                                        <div class="info-text-sub-box">
-                                            <h4 class="writer-name-testimonial">Jonathan K</h4>
-                                            <p class="simple-text-testimonial">100% Turnitin Pass Guaranted!</p>
-                                        </div>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur recusandae ab
-                                        praesentium quas, a perferendis impedit rem consequuntur eum sunt fugiat nesciunt
-                                        nostrum, aut quasi. Consequuntur vel error excepturi facere.</p>
-                                    </div>
-                                    <div class="rating">
-                                      <p class="rating-text" style="font-size: 12px !important;;">Project Delivered : 500+</p>
-                                      <p class="rating-text add-border-right-and-left" style="font-size: 12px !important; ">Expertise : Research Reports</p>
-                                      <p class="rating-text" style="font-size: 12px !important;;">Average Experience : 6 Years</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide testimonials-item">
-                                    <div class="info">
-                                        <img src="./assets/Images/first-testimonial.png" alt="Testimonial Image">
-                                    </div>
-                                    <div class="info-text-box">
-                                        <div class="info-text-sub-box">
-                                            <h4 class="writer-name-testimonial">Jonathan K</h4>
-                                            <p class="simple-text-testimonial">100% Turnitin Pass Guaranted!</p>
-                                        </div>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur recusandae ab
-                                        praesentium quas, a perferendis impedit rem consequuntur eum sunt fugiat nesciunt
-                                        nostrum, aut quasi. Consequuntur vel error excepturi facere.</p>
-                                    </div>
-                                    <div class="rating">
-                                      <p class="rating-text" style="font-size: 12px !important;;">Project Delivered : 500+</p>
-                                      <p class="rating-text add-border-right-and-left" style="font-size: 12px !important; ">Expertise : Research Reports</p>
-                                      <p class="rating-text" style="font-size: 12px !important;;">Average Experience : 6 Years</p>
-                                    </div>
-                                </div>
-        
-                            
-                            </div>
-                        </div>
-        
-                        <div class="swiper-pagination js-testimonial-pagination"></div>
-                    </div>
-                </div>
-            </section>
-        </section>
-        <section id="lets-start" class="containers">
-            <section class="inner-section">
-                <div class="lets-start-main-box">
-                    <div class="lets-start-main-box-left">
-                        <h2 class="lets-start-heading">Let's Start Build Your Brand With Us.</h2>
-                        <p class="lets-start-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                    </div>
-                    <div class="lets-start-main-box-right">
-                        <button class="header-btn add-right-margin">GET STARTED NOW</button>
-                    </div>
-                </div>
-            </section>
-        </section>
-    </main>
-    <footer>
-<section id="footer" class="containers">
-    <section class="inner-section">
-        <div class="footer-main-box">
-            <div class="footer-main-box-left">
-                <a href="#"><img src="assets/Images/Header-logo.png" alt="Footer Logo" class="footer-logo"></a>
-                <p class="footer-description">Nawaz ali dev is one of the most proficient Design Agencies at present with successful projects of Logo Design, Website Design, Stationery and Promotional Products across multiple industries.</p>
-                <h3 class="footer-main-box-left-sub-heading">Follow Us</h3>
-                <div class="social-media-icons-box">
-                    <a href="#"><i class='bx bxl-facebook'></i></a>
-                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
-                    <a href="#"><i class='bx bxl-twitter' ></i></a>
-                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
-                </div>
-            </div>
-            <div class="footer-main-box-left quick-links">
-                <h2 class="footer-main-box-left-main-heading">QUICK LINKS</h2>
-                <p class="footer-services-links"><a href="#">Home</a></p>
-                <p class="footer-services-links"><a href="#">About</a></p>
-                <p class="footer-services-links"><a href="#">Book Cover Design</a></p>
-                <p class="footer-services-links"><a href="#">Brochure Design</a></p>
-                <p class="footer-services-links"><a href="#">Envelope Design</a></p>
-                <p class="footer-services-links"><a href="#">Catalog Design</a></p>
-                <p class="footer-services-links"><a href="#">Flayer Design</a></p>
-                <p class="footer-services-links"><a href="#">Website Design</a></p>
-            </div>
-            <div class="footer-main-box-left quick-links">
-                <h2 class="footer-main-box-left-main-heading">SERVICES</h2>
-                <p class="footer-services-links"><a href="#">Logo Design</a></p>
-                <p class="footer-services-links"><a href="#">T-Shirt Design</a></p>
-                <p class="footer-services-links"><a href="#">Business Card Design</a></p>
-                <p class="footer-services-links"><a href="#">Letter Head Design</a></p>
-                <p class="footer-services-links"><a href="#">Menu Design</a></p>
-                <p class="footer-services-links"><a href="#">ID Card Design</a></p>
-                <p class="footer-services-links"><a href="#">Background Removal</a></p>
-                <p class="footer-services-links"><a href="#">Social Media Design</a></p>
-            </div>
-            <div class="footer-main-box-left quick-links footer-contact">
-                <h2 class="footer-main-box-left-main-heading">CONTACT</h2>
-                <p class="footer-services-links extra-margin-bottom-footer"><i class='bx bxs-envelope'></i><a href="#">ahteshamdev434@gmail.com</a></p>
-                <p class="footer-services-links extra-margin-bottom-footer"><i class='bx bxs-phone-call' ></i><a href="#">03032200615</a></p>
-                <p class="footer-services-links"><i class='bx bxl-whatsapp'></i><a href="#">03032200615</a></p>
-                <img src="assets/Images/payments-icon.png" alt="Payment Icon" class="payments-icon">
-               
-            </div>
-        </div>
-    </section>
+<!-- ══ HEADER ══ -->
+<header class="hdr">
+  <div class="hdr-inner">
+    <a href="https://luxeautosrepair.com/" class="hdr-brand">LUXE <em>AUTO</em> REPAIR</a>
+    <nav class="hdr-nav" aria-label="Site navigation">
+      <a class="hdr-link" href="https://luxeautosrepair.com/services/">Services</a>
+      <a class="hdr-link" href="https://luxeautosrepair.com/vehicles/">Brands</a>
+      <a class="hdr-link" href="https://luxeautosrepair.com/knowledge/">Knowledge</a>
+      <a class="hdr-link" href="#loc-h2">Location</a>
+    </nav>
+    <div class="hdr-actions">
+      <a class="btn-wa-hdr" href="https://wa.me/17282075008?text=Hello%20I%20need%20help" target="_blank" rel="noopener">💬 WhatsApp</a>
+      <a class="btn-call-hdr" href="tel:+17542605912">📞 (754) 260-5912</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ══ HERO ══ -->
+<section class="hero" aria-labelledby="hero-h1">
+  <div class="hero-inner">
+
+    <div class="hero-badge">
+      <span class="hero-badge-dot"></span>
+      Available Now · Hollywood FL 33024
+    </div>
+
+    <div class="hero-location">6031 Hollywood Blvd · Broward County · Open Mon–Sat</div>
+
+    <h1 id="hero-h1">
+      The Luxury<br>
+      <span class="accent">Rescue</span><br>
+      <span class="light">System.</span>
+    </h1>
+
+    <p class="hero-sub">40-bay European repair center. BMW, Mercedes-Benz, Audi, Porsche and every make. Manufacturer-specific diagnostics. Same-day service. Direct technician access.</p>
+
+    <div class="hero-usp">
+      <span class="hero-usp-icon">🚚</span>
+      <div class="hero-usp-text">
+        <strong>Free Towing on Major Repairs</strong> — No competitor in Hollywood matches this.
+      </div>
+    </div>
+
+    <div class="hero-actions">
+      <a class="btn-hero-primary" href="tel:+17542605912">📞 Call (754) 260-5912</a>
+      <a class="btn-hero-wa" href="https://wa.me/17282075008?text=Hello%20I%20need%20help" target="_blank" rel="noopener">💬 WhatsApp a Technician</a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="hstat">
+        <div class="hstat-num">40<em>+</em></div>
+        <div class="hstat-label">Service Bays</div>
+      </div>
+      <div class="hstat">
+        <div class="hstat-num">4</div>
+        <div class="hstat-label">Factory Platforms</div>
+      </div>
+      <div class="hstat">
+        <div class="hstat-num">24<em>/</em>7</div>
+        <div class="hstat-label">Secured Facility</div>
+      </div>
+      <div class="hstat">
+        <div class="hstat-num">1<em>×</em></div>
+        <div class="hstat-label">Same-Day Service</div>
+      </div>
+    </div>
+
+  </div>
 </section>
-    </footer>
+
+<!-- ══ AUTHORITY STRIP ══ -->
+<div class="auth-strip">
+  <div class="auth-inner">
+    <span class="auth-label">Diagnostic Platforms</span>
+    <div class="auth-pills">
+      <span class="auth-pill">ISTA — BMW</span>
+      <span class="auth-pill">XENTRY — Mercedes-Benz</span>
+      <span class="auth-pill">ODIS — Audi / Volkswagen</span>
+      <span class="auth-pill">PIWIS-Compatible — Porsche</span>
+      <span class="auth-pill">OEM Scanners — All Makes</span>
+    </div>
+  </div>
+</div>
+
+<!-- ══ EMERGENCY RESCUE ══ -->
+<section class="emergency-section" aria-labelledby="emerg-h2">
+  <div class="wrap">
+    <div class="emergency-grid">
+      <div>
+        <span class="sec-eyebrow-dk">Emergency &amp; Same-Day Service</span>
+        <h2 class="sec-h2-dk" id="emerg-h2">Stranded?<br><em>We Come to You.</em></h2>
+        <p class="emerg-sub">Most breakdowns happen without warning. Luxe Auto Repair is equipped to respond — with free towing on qualifying major repairs and same-day diagnostic availability at our 40-bay Hollywood facility.</p>
+        <ul class="emerg-usp-list">
+          <li><strong>Free Towing</strong> on qualifying major repairs — Hollywood area</li>
+          <li><strong>Same-Day Diagnostics</strong> — most evaluations completed today</li>
+          <li><strong>WhatsApp Approval</strong> — authorize repairs remotely via video inspection</li>
+          <li><strong>40 Bays</strong> — capacity that smaller shops simply cannot match</li>
+          <li><strong>24/7 Secured Storage</strong> — CCTV, armed security, climate-controlled</li>
+          <li><strong>English &amp; Spanish</strong> — bilingual service for all Hollywood drivers</li>
+        </ul>
+        <a class="btn-hero-primary" href="tel:+17542605912" style="display:inline-flex;">📞 Call for Emergency Service</a>
+      </div>
+      <div>
+        <div class="emerg-cards">
+          <div class="emerg-card">
+            <span class="emerg-card-icon">🚗</span>
+            <h3>Won't Start</h3>
+            <p>Battery, starter, alternator or immobilizer fault. We diagnose the exact cause before any replacement.</p>
+          </div>
+          <div class="emerg-card">
+            <span class="emerg-card-icon">🌡️</span>
+            <h3>Overheating</h3>
+            <p>Pull over immediately. We handle radiator, water pump, thermostat and coolant system failures same day.</p>
+          </div>
+          <div class="emerg-card">
+            <span class="emerg-card-icon">⚠️</span>
+            <h3>Warning Lights</h3>
+            <p>Flashing check engine, ABS, or drivetrain warnings. Manufacturer-specific scanners identify the exact fault.</p>
+          </div>
+          <div class="emerg-card">
+            <span class="emerg-card-icon">💨</span>
+            <h3>AC Failed</h3>
+            <p>Florida heat is unforgiving. We restore factory-level cooling with same-day AC diagnostics and repair.</p>
+          </div>
+          <div class="emerg-card">
+            <span class="emerg-card-icon">🛑</span>
+            <h3>Brake Issues</h3>
+            <p>Grinding, pulling, or brake warning light. Safety-critical — we prioritize immediate brake inspection.</p>
+          </div>
+          <div class="emerg-card">
+            <span class="emerg-card-icon">📉</span>
+            <h3>Power Loss</h3>
+            <p>Sudden loss of acceleration or engine power. Turbo, fuel system, or drivetrain fault — diagnosed precisely.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TRUST PILLARS — LIGHT ══ -->
+<section class="trust-section" aria-labelledby="trust-h2">
+  <div class="wrap">
+    <span class="sec-eyebrow-lt">Why Luxe Auto Repair</span>
+    <h2 class="sec-h2-lt" id="trust-h2">Where Luxury Meets Performance.</h2>
+    <p class="sec-sub-lt">Independent expertise with dealer-level diagnostic capability — at a scale most independent shops can't match.</p>
+    <div class="trust-pillars">
+      <div class="trust-pillar">
+        <span class="tp-icon">🔬</span>
+        <div class="tp-title">Factory Diagnostics</div>
+        <p class="tp-body">ISTA, XENTRY, ODIS — manufacturer-specific platforms that read faults generic scanners miss entirely.</p>
+      </div>
+      <div class="trust-pillar">
+        <span class="tp-icon">🏗️</span>
+        <div class="tp-title">40-Bay Facility</div>
+        <p class="tp-body">Scale that delivers same-day results. Competitors with 6–8 bays simply can't absorb emergency volume.</p>
+      </div>
+      <div class="trust-pillar">
+        <span class="tp-icon">🚚</span>
+        <div class="tp-title">Free Towing</div>
+        <p class="tp-body">On qualifying major repairs in the Hollywood area. No competitor in the 33024 market offers this.</p>
+      </div>
+      <div class="trust-pillar">
+        <span class="tp-icon">💬</span>
+        <div class="tp-title">WhatsApp Approvals</div>
+        <p class="tp-body">Video inspection sent directly to your phone. Approve repairs instantly without visiting the shop.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SERVICES — DARK ══ -->
+<section class="services-section" aria-labelledby="svc-h2">
+  <div class="wrap">
+    <span class="sec-eyebrow-dk">Complete Repair Services · Hollywood FL 33024</span>
+    <h2 class="sec-h2-dk" id="svc-h2">Every System.<br>Every Make.</h2>
+    <p class="sec-sub-dk">Tier 1 high-ticket repairs to Tier 2 emergency services — all under one roof, all executed with the same diagnostic discipline.</p>
+    <div class="svc-grid">
+
+      <article class="svc-card">
+        <span class="svc-icon">⚙️</span>
+        <span class="svc-tier">Tier 1 — High-Ticket</span>
+        <span class="svc-label">Engine &amp; Transmission</span>
+        <h3>Engine Diagnostics &amp; Transmission Repair</h3>
+        <p>Full engine diagnostics, internals, replacements, and advanced transmission service including DSG, PDK, and automatic platforms for European vehicles.</p>
+        <a class="svc-cta" href="tel:+17542605912">Book Now →</a>
+      </article>
+
+      <article class="svc-card">
+        <span class="svc-icon">🏎️</span>
+        <span class="svc-tier">Tier 1 — High-Ticket</span>
+        <span class="svc-label">European Luxury</span>
+        <h3>BMW, Mercedes, Audi &amp; Porsche Specialists</h3>
+        <p>Specialized diagnostics and repair for European platforms using manufacturer-specific software — the same tools the dealer uses, at independent speed.</p>
+        <a class="svc-cta" href="tel:+17542605912">Book BMW / Mercedes →</a>
+      </article>
+
+      <article class="svc-card">
+        <span class="svc-icon">🔩</span>
+        <span class="svc-tier">Tier 1 — High-Ticket</span>
+        <span class="svc-label">Suspension</span>
+        <h3>Suspension &amp; Air Ride Repair</h3>
+        <p>Complete suspension inspection, air suspension rebuild, stability tuning, and alignment for luxury and high-performance vehicles including Range Rover and Porsche Cayenne.</p>
+        <a class="svc-cta" href="tel:+17542605912">Book Suspension →</a>
+      </article>
+
+      <article class="svc-card">
+        <span class="svc-icon">❄️</span>
+        <span class="svc-tier t2">Tier 2 — Emergency</span>
+        <span class="svc-label">AC Repair</span>
+        <h3>AC Repair &amp; Climate Control</h3>
+        <p>Florida's #1 repair need. Refrigerant leaks, compressor failure, climate module faults — diagnosed and resolved same day with manufacturer-specific equipment.</p>
+        <a class="svc-cta" href="tel:+17542605912">Same-Day AC Service →</a>
+      </article>
+
+      <article class="svc-card">
+        <span class="svc-icon">🛑</span>
+        <span class="svc-tier t2">Tier 2 — Emergency</span>
+        <span class="svc-label">Brakes &amp; Safety</span>
+        <h3>Brake Repair &amp; ABS Diagnostics</h3>
+        <p>Safety-critical and non-negotiable. ABS module diagnostics, pad and rotor replacement, caliper service, and brake fluid service across all platforms.</p>
+        <a class="svc-cta" href="tel:+17542605912">Emergency Brake Service →</a>
+      </article>
+
+      <article class="svc-card">
+        <span class="svc-icon">🌡️</span>
+        <span class="svc-tier t2">Tier 2 — Emergency</span>
+        <span class="svc-label">Cooling System</span>
+        <h3>Overheating &amp; Radiator Repair</h3>
+        <p>Engine overheating causes permanent damage within minutes. Radiator, water pump, thermostat, and coolant system — diagnosed and repaired immediately.</p>
+        <a class="svc-cta" href="tel:+17542605912">Emergency Cooling Service →</a>
+      </article>
+
+      <article class="svc-card">
+        <span class="svc-icon">💻</span>
+        <span class="svc-tier t2">Tier 2 — Emergency</span>
+        <span class="svc-label">Diagnostics</span>
+        <h3>Check Engine &amp; Computer Diagnostics</h3>
+        <p>A flashing light is an emergency. Manufacturer-specific scanners isolate the exact fault before any recommendation — not generic code readers.</p>
+        <a class="svc-cta" href="tel:+17542605912">Book Diagnostics →</a>
+      </article>
+
+      <article class="svc-card">
+        <span class="svc-icon">🔋</span>
+        <span class="svc-tier t2">Tier 2 — Emergency</span>
+        <span class="svc-label">Electrical</span>
+        <h3>Battery, Alternator &amp; Electrical</h3>
+        <p>Slow cranking, warning lights, or sudden shutdown. We test batteries, alternators, starters, and complex European wiring harnesses with professional diagnostic equipment.</p>
+        <a class="svc-cta" href="tel:+17542605912">Electrical Diagnostics →</a>
+      </article>
+
+      <article class="svc-card">
+        <span class="svc-icon">🛢️</span>
+        <span class="svc-tier t2">Tier 3 — Maintenance</span>
+        <span class="svc-label">Oil &amp; Fluid Service</span>
+        <h3>Oil Change, Tires &amp; Alignment</h3>
+        <p>Same-day full synthetic oil changes, tire sales and balancing (6-month/10,000-mile guarantee), and computerized wheel alignment that extends tire life.</p>
+        <a class="svc-cta" href="tel:+17542605912">Book Maintenance →</a>
+      </article>
+
+    </div>
+    <div style="margin-top:28px">
+      <a href="https://luxeautosrepair.com/services/" style="font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--red);border-bottom:1px solid var(--red);padding-bottom:2px;">View All Services →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ VEHICLE BRAND MATRIX — DARK ══ -->
+<section class="brands-section" aria-labelledby="brand-h2">
+  <div class="wrap">
+    <div class="brand-header">
+      <div>
+        <span class="sec-eyebrow-dk">Platform-Specific Expertise</span>
+        <h2 class="sec-h2-dk" id="brand-h2">We Know Your<br>Vehicle's Language.</h2>
+      </div>
+      <div>
+        <p>Every European platform requires its own diagnostic software, failure knowledge, and repair procedures. We carry all of it — the same technology the manufacturer uses, at independent speed and scale.</p>
+        <a href="https://luxeautosrepair.com/vehicles/">View All 30+ Brands →</a>
+      <!-- /vehicles/ page organizes brands into: European Luxury · American Performance & Luxury · Premium Asian -->
+      </div>
+    </div>
+
+    <div class="brand-grid">
+      <div class="brand-card">
+        <span class="bc-platform">ISTA Diagnostic Platform</span>
+        <div class="bc-name">BMW</div>
+        <p class="bc-desc">VANOS, electric water pump, N-series engine failures, cooling system faults, and timing chain issues.</p>
+        <div class="bc-models">
+          <span class="bc-model">3 Series</span><span class="bc-model">5 Series</span>
+          <span class="bc-model">X3</span><span class="bc-model">X5</span>
+          <span class="bc-model">M3</span><span class="bc-model">M5</span>
+        </div>
+      </div>
+      <div class="brand-card">
+        <span class="bc-platform">XENTRY Diagnostic Platform</span>
+        <div class="bc-name">Mercedes-Benz</div>
+        <p class="bc-desc">AIRMATIC suspension, balance shaft wear, SBC brake faults, 7G-Tronic conductor plate issues.</p>
+        <div class="bc-models">
+          <span class="bc-model">C-Class</span><span class="bc-model">E-Class</span>
+          <span class="bc-model">S-Class</span><span class="bc-model">GLE</span>
+          <span class="bc-model">G-Class</span><span class="bc-model">AMG</span>
+        </div>
+      </div>
+      <div class="brand-card">
+        <span class="bc-platform">ODIS Diagnostic Platform</span>
+        <div class="bc-name">Audi &amp; VW</div>
+        <p class="bc-desc">DSG mechatronic, timing chain tensioner, direct-injection carbon buildup, 2.0T oil consumption.</p>
+        <div class="bc-models">
+          <span class="bc-model">A4</span><span class="bc-model">A6</span>
+          <span class="bc-model">Q5</span><span class="bc-model">Q7</span>
+          <span class="bc-model">GTI</span><span class="bc-model">Tiguan</span>
+        </div>
+      </div>
+      <div class="brand-card">
+        <span class="bc-platform">Porsche-Compatible Platform</span>
+        <div class="bc-name">Porsche</div>
+        <p class="bc-desc">PDK transmission wear, air suspension modules, coolant pipe corrosion, IMS bearing issues.</p>
+        <div class="bc-models">
+          <span class="bc-model">Cayenne</span><span class="bc-model">Panamera</span>
+          <span class="bc-model">Macan</span><span class="bc-model">911</span>
+          <span class="bc-model">Taycan</span>
+        </div>
+      </div>
+      <div class="brand-card">
+        <span class="bc-platform">Manufacturer-Specific Diagnostics</span>
+        <div class="bc-name">Land Rover</div>
+        <p class="bc-desc">Air suspension compressor, timing chain stretch, transfer case faults, electronic parking brake.</p>
+        <div class="bc-models">
+          <span class="bc-model">Range Rover</span><span class="bc-model">Discovery</span>
+          <span class="bc-model">Defender</span><span class="bc-model">Sport</span>
+        </div>
+      </div>
+      <div class="brand-card">
+        <span class="bc-platform">Manufacturer-Specific Diagnostics</span>
+        <div class="bc-name">MINI &amp; Volvo</div>
+        <p class="bc-desc">MINI N14 timing chain, Volvo PCV failure, turbo wastegate wear, progressive oil leaks.</p>
+        <div class="bc-models">
+          <span class="bc-model">Cooper</span><span class="bc-model">Countryman</span>
+          <span class="bc-model">XC60</span><span class="bc-model">XC90</span>
+        </div>
+      </div>
+      <div class="brand-card brand-card-wide">
+        <span class="bc-platform">Most Makes Welcome</span>
+        <div class="bc-name">Toyota · Honda · Nissan · Lexus · Ford · Chevrolet · Jeep · Hyundai · Kia · and more</div>
+        <p class="bc-desc">European expertise doesn't mean we turn other vehicles away. Every domestic and Asian vehicle receives the same professional diagnostic standard — at our 40-bay Hollywood facility.</p>
+        <a href="https://luxeautosrepair.com/vehicles/" style="display:inline-flex;align-items:center;gap:5px;margin-top:14px;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--red);">Browse All Vehicle Brands →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SYMPTOM DIAGNOSIS CENTER — LIGHT ══ -->
+<section class="symptoms-section" aria-labelledby="symp-h2">
+  <div class="wrap">
+    <span class="sec-eyebrow-lt">Symptom Diagnosis Center</span>
+    <h2 class="sec-h2-lt" id="symp-h2">What Is Your Vehicle Telling You?</h2>
+    <p class="sec-sub-lt">Common warning signs and what they typically indicate — described by drivers who search exactly this way on Google.</p>
+    <div class="symptom-grid">
+      <div class="symptom-card">
+        <span class="sc-warning">Engine</span>
+        <h3>Check engine light is flashing</h3>
+        <p>A flashing CEL signals active catalytic converter or engine damage in progress. Pull over immediately. Do not drive to the shop — call us.</p>
+        <a class="sc-action" href="tel:+17542605912">Call Now →</a>
+      </div>
+      <div class="symptom-card">
+        <span class="sc-warning">AC System</span>
+        <h3>Air conditioning blowing warm air</h3>
+        <p>Refrigerant leak, compressor failure, or electronic climate module fault. Most common repair in Florida — same-day diagnosis available.</p>
+        <a class="sc-action" href="tel:+17542605912">Book AC Service →</a>
+      </div>
+      <div class="symptom-card">
+        <span class="sc-warning">Suspension</span>
+        <h3>Car sagging or sitting low overnight</h3>
+        <p>Air suspension compressor or air strut failure — common on BMW X5, Mercedes GLE, Range Rover, and Porsche Cayenne. Requires specialist diagnosis.</p>
+        <a class="sc-action" href="tel:+17542605912">Book Suspension →</a>
+      </div>
+      <div class="symptom-card">
+        <span class="sc-warning">Transmission</span>
+        <h3>Rough, delayed, or jerky shifting</h3>
+        <p>DSG mechatronic unit on Audi/VW, PDK on Porsche, or 7G-Tronic conductor plate on Mercedes. Platform-specific diagnosis required.</p>
+        <a class="sc-action" href="tel:+17542605912">Book Diagnostics →</a>
+      </div>
+      <div class="symptom-card">
+        <span class="sc-warning">Cooling</span>
+        <h3>Temperature gauge climbing or coolant loss</h3>
+        <p>Pull over and shut off the engine. Overheating causes permanent powertrain damage within minutes. We handle radiator, water pump, and thermostat same day.</p>
+        <a class="sc-action" href="tel:+17542605912">Emergency Service →</a>
+      </div>
+      <div class="symptom-card">
+        <span class="sc-warning">Brakes</span>
+        <h3>Grinding or squealing when stopping</h3>
+        <p>Worn brake pads contacting the rotor — safety-critical. We inspect and replace pads, rotors, and calipers with same-day availability on most vehicles.</p>
+        <a class="sc-action" href="tel:+17542605912">Book Brake Inspection →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ WHY LUXE vs DEALERSHIP — DARK ══ -->
+<section class="why-section" aria-labelledby="why-h2">
+  <div class="wrap">
+    <span class="sec-eyebrow-dk">Dealer-Level Expertise</span>
+    <h2 class="sec-h2-dk" id="why-h2">Everything the Dealer Offers.<br><em>None of the Delays.</em></h2>
+    <p class="sec-sub-dk">The gap between a dealership and a great independent shop should not be diagnostic capability. At Luxe, it isn't.</p>
+    <div class="why-grid">
+      <div class="why-card">
+        <span class="wc-num">01 — Diagnostics</span>
+        <h3>Factory-Level Scanning</h3>
+        <p>We use the same manufacturer-specific platforms as the dealer — ISTA, XENTRY, ODIS. Not generic OBD-II readers that miss the root cause and lead to unnecessary parts replacements.</p>
+      </div>
+      <div class="why-card">
+        <span class="wc-num">02 — Capacity</span>
+        <h3>40 Bays. Same-Day Results.</h3>
+        <p>A typical independent shop has 6–8 bays. We have 40. That capacity is the reason most repairs are completed the same day — not scheduled weeks out like a dealership appointment.</p>
+      </div>
+      <div class="why-card">
+        <span class="wc-num">03 — Transparency</span>
+        <h3>Direct Technician Communication</h3>
+        <p>You speak with the technician working on your vehicle. Video inspection sent via WhatsApp. Your approval required before any work begins. No service advisor commissions driving upsells.</p>
+      </div>
+      <div class="why-card">
+        <span class="wc-num">04 — Differentiator</span>
+        <h3>Free Towing on Major Repairs</h3>
+        <p>No competitor in Hollywood 33024 offers this. If your vehicle needs a major repair and qualifies, we arrange towing at no additional charge — removing the biggest barrier to getting help.</p>
+      </div>
+    </div>
+
+    <div class="compare-table">
+      <div class="ct-col">
+        <div class="ct-head luxe">Luxe Auto Repair</div>
+        <div class="ct-row hi"><span class="y">✓</span><span>Manufacturer-specific diagnostic platforms</span></div>
+        <div class="ct-row hi"><span class="y">✓</span><span>40-bay facility — same-day capacity</span></div>
+        <div class="ct-row hi"><span class="y">✓</span><span>Free towing on major repairs</span></div>
+        <div class="ct-row hi"><span class="y">✓</span><span>Direct technician access</span></div>
+        <div class="ct-row hi"><span class="y">✓</span><span>WhatsApp digital approvals</span></div>
+        <div class="ct-row hi"><span class="y">✓</span><span>English &amp; Spanish service</span></div>
+      </div>
+      <div class="ct-col">
+        <div class="ct-head dealer">Dealership</div>
+        <div class="ct-row hi"><span class="y">✓</span><span>Factory diagnostic software</span></div>
+        <div class="ct-row"><span class="n">✗</span><span>3–4 week wait times</span></div>
+        <div class="ct-row"><span class="n">✗</span><span>No towing assistance</span></div>
+        <div class="ct-row"><span class="n">✗</span><span>Service advisor intermediary</span></div>
+        <div class="ct-row"><span class="n">✗</span><span>Commission-driven recommendations</span></div>
+        <div class="ct-row"><span class="n">✗</span><span>No same-day availability</span></div>
+      </div>
+      <div class="ct-col">
+        <div class="ct-head generic">Generic Shop</div>
+        <div class="ct-row"><span class="n">✗</span><span>Generic OBD-II scanners only</span></div>
+        <div class="ct-row"><span class="n">✗</span><span>No platform-specific expertise</span></div>
+        <div class="ct-row"><span class="n">✗</span><span>No towing offered</span></div>
+        <div class="ct-row"><span class="n">✗</span><span>Parts-cannon approach</span></div>
+        <div class="ct-row"><span class="n">✗</span><span>Misses European-specific faults</span></div>
+        <div class="ct-row"><span class="n">✗</span><span>No DSG/PDK/air suspension expertise</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PROCESS — LIGHT ══ -->
+<section class="process-section" aria-labelledby="proc-h2">
+  <div class="wrap">
+    <span class="sec-eyebrow-lt">How It Works</span>
+    <h2 class="sec-h2-lt" id="proc-h2">Five Steps. No Shortcuts.</h2>
+    <p class="sec-sub-lt">Every vehicle, every visit — the same disciplined process applied without exception.</p>
+    <div class="process-steps">
+      <div class="process-step">
+        <span class="ps-num">01</span>
+        <h3>Drop Off or Tow In</h3>
+        <p>6031 Hollywood Blvd, or we arrange towing on qualifying major repairs. 24/7 secured vehicle storage on arrival.</p>
+      </div>
+      <div class="process-step">
+        <span class="ps-num">02</span>
+        <h3>Factory Diagnostic Evaluation</h3>
+        <p>Manufacturer-specific platform scan and physical inspection. We read faults generic shops miss entirely.</p>
+      </div>
+      <div class="process-step">
+        <span class="ps-num">03</span>
+        <h3>Video Inspection Report</h3>
+        <p>Findings documented and sent directly to your phone via WhatsApp. You see exactly what we found.</p>
+      </div>
+      <div class="process-step">
+        <span class="ps-num">04</span>
+        <h3>Your Approval</h3>
+        <p>Approve repairs digitally via WhatsApp — no need to visit. Nothing begins without your explicit authorization.</p>
+      </div>
+      <div class="process-step">
+        <span class="ps-num">05</span>
+        <h3>Professional Repair &amp; Return</h3>
+        <p>Quality parts, verified workmanship, and a vehicle returned same-day where possible — not in three weeks.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA BAND ══ -->
+<div class="cta-band">
+  <div class="cta-inner">
+    <h2>Your Vehicle Deserves<br>Better Than a Wait.</h2>
+    <p>Free towing on qualifying major repairs · Same-day diagnostics · Monday–Saturday 8AM–6PM · Sunday 9AM–5PM</p>
+    <a class="btn-cta-white" href="tel:+17542605912">📞 Call (754) 260-5912</a>
+  </div>
+</div>
+
+<!-- ══ REVIEWS — LIGHT ══ -->
+<section class="reviews-section" aria-labelledby="rev-h2">
+  <div class="wrap">
+    <span class="sec-eyebrow-lt">Customer Reviews</span>
+    <h2 class="sec-h2-lt" id="rev-h2">Trusted Across Broward County.</h2>
+    <p class="sec-sub-lt">Real vehicles. Real repairs. Real results from Hollywood and surrounding communities.</p>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="rev-stars">★★★★★</div>
+        <p class="rev-text">"My BMW AC failed in July. Luxe had it diagnosed the same morning, explained exactly what failed, and had it running cold by early afternoon. The dealer told me three weeks minimum."</p>
+        <div class="rev-author">Michael R.</div>
+        <div class="rev-vehicle">BMW 5 Series · Hollywood, FL</div>
+      </div>
+      <div class="review-card">
+        <div class="rev-stars">★★★★★</div>
+        <p class="rev-text">"Porsche PDK started giving harsh shifts. They diagnosed the mechatronic fault precisely using the right equipment, sent me a video of what they found, and I approved via WhatsApp. Seamless."</p>
+        <div class="rev-author">Sandra L.</div>
+        <div class="rev-vehicle">Porsche Cayenne · Davie, FL</div>
+      </div>
+      <div class="review-card">
+        <div class="rev-stars">★★★★★</div>
+        <p class="rev-text">"Check engine light on for two weeks. Two other shops ran generic scans and couldn't find the root cause. Luxe isolated the exact fault within an hour using ODIS. Completely different experience."</p>
+        <div class="rev-author">David M.</div>
+        <div class="rev-vehicle">Audi A4 · Hallandale Beach, FL</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ KNOWLEDGE CENTER PREVIEW — DARK ══ -->
+<section class="knowledge-section" aria-labelledby="kc-h2">
+  <div class="wrap">
+    <span class="sec-eyebrow-dk">Knowledge Center</span>
+    <h2 class="sec-h2-dk" id="kc-h2">Automotive Knowledge.<br>Built for South Florida Drivers.</h2>
+    <p class="sec-sub-dk">Real answers to the questions Hollywood drivers search for every day — organized by system, vehicle, and situation.</p>
+    <div class="knowledge-grid">
+      <div class="kc-card">
+        <span class="kc-icon">⚠️</span>
+        <span class="kc-category">Warning Lights</span>
+        <h3>What Does a Flashing Check Engine Light Mean?</h3>
+        <p>When to stop immediately vs. when to drive carefully to the shop — explained clearly.</p>
+        <a class="kc-link" href="https://luxeautosrepair.com/knowledge/">Read Guide →</a>
+      </div>
+      <div class="kc-card">
+        <span class="kc-icon">🏎️</span>
+        <span class="kc-category">European Vehicles</span>
+        <h3>Why BMW and Mercedes Need Specialist Diagnostics</h3>
+        <p>Why generic OBD-II scanners miss the faults that cause expensive failures on European platforms.</p>
+        <a class="kc-link" href="https://luxeautosrepair.com/knowledge/">Read Guide →</a>
+      </div>
+      <div class="kc-card">
+        <span class="kc-icon">❄️</span>
+        <span class="kc-category">Florida Driving</span>
+        <h3>AC Repair in South Florida — What to Expect</h3>
+        <p>Why refrigerant leaks and compressor failures are so common in Florida heat — and what the repair involves.</p>
+        <a class="kc-link" href="https://luxeautosrepair.com/knowledge/">Read Guide →</a>
+      </div>
+      <div class="kc-card">
+        <span class="kc-icon">🚚</span>
+        <span class="kc-category">Emergency Breakdown</span>
+        <h3>My Car Won't Start — What Are the Most Common Causes?</h3>
+        <p>Battery, starter, alternator, immobilizer, or fuel delivery — a systematic guide to diagnosing the real cause.</p>
+        <a class="kc-link" href="https://luxeautosrepair.com/knowledge/">Read Guide →</a>
+      </div>
+    </div>
+    <div style="margin-top:32px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;">
+      <a href="https://luxeautosrepair.com/knowledge/" style="font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--red);border-bottom:1px solid var(--red);padding-bottom:2px;">Browse All Knowledge Center Articles →</a>
+      <span style="font-size:11px;color:var(--mist);">·</span>
+      <a href="https://luxeautosrepair.com/knowledge/warning-lights/" style="font-size:12px;font-weight:600;color:var(--mist);">Warning Lights</a>
+      <span style="font-size:11px;color:var(--mist);">·</span>
+      <a href="https://luxeautosrepair.com/knowledge/european-vehicles/" style="font-size:12px;font-weight:600;color:var(--mist);">European Vehicles</a>
+      <span style="font-size:11px;color:var(--mist);">·</span>
+      <a href="https://luxeautosrepair.com/knowledge/maintenance/" style="font-size:12px;font-weight:600;color:var(--mist);">Maintenance Guides</a>
+      <span style="font-size:11px;color:var(--mist);">·</span>
+      <a href="https://luxeautosrepair.com/knowledge/emergency/" style="font-size:12px;font-weight:600;color:var(--mist);">Emergency Breakdowns</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FAQ — LIGHT ══ -->
+<section class="faq-section" aria-labelledby="faq-h2">
+  <div class="wrap">
+    <div class="faq-layout">
+      <div class="faq-sticky">
+        <span class="sec-eyebrow-lt">FAQ</span>
+        <h2 class="sec-h2-lt" id="faq-h2">Answers Before You Call.</h2>
+        <p>The questions Hollywood drivers ask most — answered directly, without ambiguity.</p>
+        <a class="btn-hero-primary" href="tel:+17542605912" style="display:inline-flex;margin-top:0;font-size:14px;padding:14px 28px;">📞 Call Now</a>
+      </div>
+      <div>
+        <div class="faq-item">
+          <p class="faq-q">Does Luxe Auto Repair offer free towing?</p>
+          <p class="faq-a">Yes. We provide free towing on qualifying major repairs in the Hollywood FL area. Call <strong>(754) 260-5912</strong> to confirm eligibility for your specific repair. This is our strongest differentiator — no competitor in the 33024 market offers it.</p>
+        </div>
+        <div class="faq-item">
+          <p class="faq-q">Do you specialize in European and luxury vehicles?</p>
+          <p class="faq-a">Yes. We specialize in BMW, Mercedes-Benz, Audi, Volkswagen, Porsche, MINI, Land Rover, and Volvo — using manufacturer-specific diagnostic platforms (ISTA, XENTRY, ODIS) required to accurately read these vehicles. We also service all domestic and Asian makes.</p>
+        </div>
+        <div class="faq-item">
+          <p class="faq-q">How large is your facility?</p>
+          <p class="faq-a">Luxe Auto Repair operates a 40-bay facility at 6031 Hollywood Blvd with 24/7 armed security, CCTV monitoring, and climate-controlled vehicle storage. This capacity is the reason we can offer same-day service that most shops with 6–8 bays simply cannot.</p>
+        </div>
+        <div class="faq-item">
+          <p class="faq-q">Can I approve repairs without visiting the shop?</p>
+          <p class="faq-a">Yes. We document our findings with a video inspection and send it directly to your phone via WhatsApp. You can review and authorize repairs remotely — ideal for drivers at work, travelers, or anyone who can't immediately visit the facility.</p>
+        </div>
+        <div class="faq-item">
+          <p class="faq-q">Do you offer same-day service in Hollywood, FL?</p>
+          <p class="faq-a">Yes. Our 40-bay capacity allows us to complete many diagnostic evaluations and common repairs the same day. Call <strong>(754) 260-5912</strong> to confirm availability for your specific vehicle and repair type before bringing it in.</p>
+        </div>
+        <div class="faq-item">
+          <p class="faq-q">What languages do you offer service in?</p>
+          <p class="faq-a">We offer service in English and Spanish. Hollywood's diverse community is fully welcome — call <strong>(754) 260-5912</strong> or reach us via WhatsApp in either language.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CONTACT — DARK ══ -->
+<section class="contact-section" aria-labelledby="contact-h2">
+  <div class="wrap">
+    <span class="sec-eyebrow-dk">Schedule Service</span>
+    <h2 class="sec-h2-dk" id="contact-h2">Call Now or<br>Request a Callback.</h2>
+    <div class="contact-layout" style="margin-top:52px">
+      <div>
+        <div class="contact-details">
+          <div class="cdet">
+            <span class="cdet-icon">📍</span>
+            <div>
+              <span class="cdet-label">Location</span>
+              <div class="cdet-val"><a href="https://maps.app.goo.gl/g6Mp99XwxPn1yoM68" target="_blank" rel="noopener">6031 Hollywood Blvd, Hollywood FL 33024</a></div>
+            </div>
+          </div>
+          <div class="cdet">
+            <span class="cdet-icon">📞</span>
+            <div>
+              <span class="cdet-label">Phone</span>
+              <div class="cdet-val"><a href="tel:+17542605912">+1 (754) 260-5912</a></div>
+            </div>
+          </div>
+          <div class="cdet">
+            <span class="cdet-icon">💬</span>
+            <div>
+              <span class="cdet-label">WhatsApp</span>
+              <div class="cdet-val"><a href="https://wa.me/17282075008?text=Hello%20I%20need%20help">+1 (728) 207-5008</a></div>
+            </div>
+          </div>
+          <div class="cdet">
+            <span class="cdet-icon">⏰</span>
+            <div>
+              <span class="cdet-label">Hours</span>
+              <div class="cdet-val">Mon–Sat 8:00 AM – 6:00 PM<br>Sun 9:00 AM – 5:00 PM</div>
+            </div>
+          </div>
+          <div class="cdet">
+            <span class="cdet-icon">🌐</span>
+            <div>
+              <span class="cdet-label">Languages</span>
+              <div class="cdet-val">English &amp; Spanish / Inglés y Español</div>
+            </div>
+          </div>
+        </div>
+        <a class="btn-contact-call" href="tel:+17542605912" style="margin-top:28px;">📞 Call (754) 260-5912 Now</a>
+        <a class="whatsapp-cta" href="https://wa.me/17282075008?text=Hello%20I%20need%20help" target="_blank" rel="noopener" style="margin-top:10px;">💬 WhatsApp a Technician</a>
+      </div>
+      <div class="form-card">
+        <h3>Request a Callback</h3>
+        <p>Our service advisor calls you within 15 minutes during business hours.</p>
+        <div class="fld">
+          <label for="f-phone">Phone Number</label>
+          <input type="tel" id="f-phone" name="phone" placeholder="(754) 000-0000" autocomplete="tel">
+        </div>
+        <div class="fld">
+          <label for="f-vehicle">Vehicle (Make / Model / Year)</label>
+          <input type="text" id="f-vehicle" name="vehicle" placeholder="e.g. 2021 BMW X5">
+        </div>
+        <div class="fld">
+          <label for="f-service">Service Needed</label>
+          <select id="f-service" name="service">
+            <option value="">Select a service...</option>
+            <option>Engine Diagnostics / Check Engine Light</option>
+            <option>AC Repair</option>
+            <option>Brake Repair</option>
+            <option>Transmission Service</option>
+            <option>Suspension / Air Suspension</option>
+            <option>Cooling System / Overheating</option>
+            <option>Electrical / Battery</option>
+            <option>Oil Change / Maintenance</option>
+            <option>European Luxury Specialist</option>
+            <option>Emergency / Won't Start</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="fld">
+          <label for="f-issue">Describe the Issue</label>
+          <textarea id="f-issue" name="issue" placeholder="e.g. Check engine light flashing, AIRMATIC warning on dash..."></textarea>
+        </div>
+        <button class="btn-form" type="button">Request Diagnostic Appointment</button>
+        <p class="form-note">No spam. One call to confirm your appointment — that's it. WhatsApp inquiries also welcome at (728) 207-5008.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SERVICE AREA — DARK ══ -->
+<div class="area-section">
+  <div class="wrap">
+    <div class="area-layout">
+      <div>
+        <span class="sec-eyebrow-dk">Service Area</span>
+        <h2 class="sec-h2-dk">Serving Hollywood, FL<br>and Broward County.</h2>
+        <p>Located at 6031 Hollywood Blvd — minutes from Hallandale Beach, Dania Beach, Davie, Miramar, and Fort Lauderdale. Free towing available on qualifying major repairs within the service area.</p>
+      </div>
+      <div>
+        <div class="area-tags">
+          <span class="area-tag">Hollywood, FL 33024</span>
+          <span class="area-tag">Hallandale Beach</span>
+          <span class="area-tag">Dania Beach</span>
+          <span class="area-tag">Davie</span>
+          <span class="area-tag">Pembroke Pines</span>
+          <span class="area-tag">Miramar</span>
+          <span class="area-tag">Fort Lauderdale</span>
+          <span class="area-tag">Weston</span>
+          <span class="area-tag">Cooper City</span>
+          <span class="area-tag">Broward County, FL</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ INSTAGRAM GALLERY — LIGHT ══ -->
+<!-- Note: Replace ig-placeholder src with real Instagram image CDN URLs once available.
+     Images load lazily, no SDK, no JS. Thumbnails should be 400×400px WebP/AVIF. -->
+<section class="instagram-section" aria-labelledby="ig-h2">
+  <div class="wrap">
+    <div class="ig-header">
+      <div>
+        <span class="sec-eyebrow-dk">Real Repairs. Real Results.</span>
+        <h2 class="sec-h2-dk" id="ig-h2">Inside Luxe Auto Repair.</h2>
+      </div>
+      <a class="ig-handle" href="https://www.instagram.com/luxe_auto_repair" target="_blank" rel="noopener">@luxe_auto_repair</a>
+    </div>
+    <p class="ig-trust-note">
+      <strong>No stock photography.</strong> No staged marketing. Every image below is from inside our facility — real customer vehicles, real diagnostic equipment, real workmanship performed by our technicians. This is what dealer-level independent service looks like.
+    </p>
+    <div class="ig-grid">
+      <!-- Row 1: 5 posts -->
+      <a class="ig-item" href="https://www.instagram.com/luxe_auto_repair" target="_blank" rel="noopener" aria-label="View on Instagram">
+        <img class="ig-placeholder" src="https://luxeautosrepair.com/wp-content/instagram/ig-01.webp" alt="Luxury vehicle repair in progress at Luxe Auto Repair Hollywood FL" width="400" height="400" loading="lazy">
+        <span class="ig-item-icon">📷</span>
+      </a>
+      <a class="ig-item" href="https://www.instagram.com/luxe_auto_repair" target="_blank" rel="noopener" aria-label="View on Instagram">
+        <img class="ig-placeholder" src="https://luxeautosrepair.com/wp-content/instagram/ig-02.webp" alt="BMW engine diagnostics at Luxe Auto Repair" width="400" height="400" loading="lazy">
+        <span class="ig-item-icon">📷</span>
+      </a>
+      <a class="ig-item" href="https://www.instagram.com/luxe_auto_repair" target="_blank" rel="noopener" aria-label="View on Instagram">
+        <img class="ig-placeholder" src="https://luxeautosrepair.com/wp-content/instagram/ig-03.webp" alt="Mercedes-Benz service at 40-bay Hollywood FL repair center" width="400" height="400" loading="lazy">
+        <span class="ig-item-icon">📷</span>
+      </a>
+      <a class="ig-item" href="https://www.instagram.com/luxe_auto_repair" target="_blank" rel="noopener" aria-label="View on Instagram">
+        <img class="ig-placeholder" src="https://luxeautosrepair.com/wp-content/instagram/ig-04.webp" alt="Professional auto technician at Luxe Auto Repair" width="400" height="400" loading="lazy">
+        <span class="ig-item-icon">📷</span>
+      </a>
+      <a class="ig-item" href="https://www.instagram.com/luxe_auto_repair" target="_blank" rel="noopener" aria-label="View on Instagram">
+        <img class="ig-placeholder" src="https://luxeautosrepair.com/wp-content/instagram/ig-05.webp" alt="Audi diagnostic scan at Luxe Auto Repair Hollywood" width="400" height="400" loading="lazy">
+        <span class="ig-item-icon">📷</span>
+      </a>
+      <!-- Row 2: 5 posts -->
+      <a class="ig-item" href="https://www.instagram.com/luxe_auto_repair" target="_blank" rel="noopener" aria-label="View on Instagram">
+        <img class="ig-placeholder" src="https://luxeautosrepair.com/wp-content/instagram/ig-06.webp" alt="Porsche PDK transmission service at Luxe Auto Repair" width="400" height="400" loading="lazy">
+        <span class="ig-item-icon">📷</span>
+      </a>
+      <a class="ig-item" href="https://www.instagram.com/luxe_auto_repair" target="_blank" rel="noopener" aria-label="View on Instagram">
+        <img class="ig-placeholder" src="https://luxeautosrepair.com/wp-content/instagram/ig-07.webp" alt="Range Rover air suspension repair Hollywood FL" width="400" height="400" loading="lazy">
+        <span class="ig-item-icon">📷</span>
+      </a>
+      <a class="ig-item" href="https://www.instagram.com/luxe_auto_repair" target="_blank" rel="noopener" aria-label="View on Instagram">
+        <img class="ig-placeholder" src="https://luxeautosrepair.com/wp-content/instagram/ig-08.webp" alt="Vehicle brake system inspection at Luxe Auto Repair" width="400" height="400" loading="lazy">
+        <span class="ig-item-icon">📷</span>
+      </a>
+      <a class="ig-item" href="https://www.instagram.com/luxe_auto_repair" target="_blank" rel="noopener" aria-label="View on Instagram">
+        <img class="ig-placeholder" src="https://luxeautosrepair.com/wp-content/instagram/ig-09.webp" alt="AC system repair and diagnostics Hollywood FL" width="400" height="400" loading="lazy">
+        <span class="ig-item-icon">📷</span>
+      </a>
+      <a class="ig-item" href="https://www.instagram.com/luxe_auto_repair" target="_blank" rel="noopener" aria-label="View on Instagram">
+        <img class="ig-placeholder" src="https://luxeautosrepair.com/wp-content/instagram/ig-10.webp" alt="Luxury European car service at Luxe Auto Repair 40-bay facility" width="400" height="400" loading="lazy">
+        <span class="ig-item-icon">📷</span>
+      </a>
+    </div>
+    <div class="ig-cta-row">
+      <a class="btn-ig" href="https://www.instagram.com/luxe_auto_repair" target="_blank" rel="noopener">Follow @luxe_auto_repair on Instagram →</a>
+      <span style="font-size:13px;color:var(--mist);">Updated regularly with real shop work</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SPANISH / BILINGUAL — DARK ══ -->
+<section class="spanish-section" aria-labelledby="spanish-h2" lang="es">
+  <div class="spanish-inner">
+    <div>
+      <span class="spanish-tag">Servicio Bilingüe · Bilingual Service</span>
+      <h2 class="spanish-h2" id="spanish-h2">¿Prefiere Atención<br>en Español?</h2>
+      <p class="spanish-sub">
+        Nuestro equipo bilingüe está disponible para atenderle en español — por teléfono, WhatsApp o en persona en nuestra instalación de 40 bahías en Hollywood, FL.<br><br>
+        <span style="color:var(--mist);font-size:13px;">Our bilingual team is available in English &amp; Spanish — call, WhatsApp, or visit us in Hollywood.</span>
+      </p>
+    </div>
+    <div class="spanish-actions">
+      <a class="btn-spanish-primary" href="/es/" hreflang="es">
+        <span>🌐 Ver Sitio en Español</span>
+        <span style="font-size:12px;opacity:.8;">View in Spanish →</span>
+      </a>
+      <a class="btn-spanish-wa" href="https://wa.me/17282075008?text=Hola%2C%20necesito%20ayuda%20con%20mi%20veh%C3%ADculo" target="_blank" rel="noopener">
+        <span>💬 WhatsApp en Español</span>
+        <span style="font-size:12px;opacity:.6;">+1 (728) 207-5008</span>
+      </a>
+      <a class="btn-spanish-wa" href="tel:+17542605912" style="border-color:rgba(229,9,20,0.3);">
+        <span>📞 Llamar Ahora · Call Now</span>
+        <span style="font-size:12px;opacity:.6;">(754) 260-5912</span>
+      </a>
+      <p class="btn-spanish-note">Inglés y Español · Servicio disponible lunes–sábado 8AM–6PM · Domingo 9AM–5PM</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══ LOCATION & INTERACTIVE MAP — LIGHT ══ -->
+<section class="location-section" aria-labelledby="loc-h2">
+  <div class="wrap">
+    <span class="sec-eyebrow-lt">Visit Luxe Auto Repair</span>
+    <h2 class="sec-h2-lt" id="loc-h2">Find Us in Hollywood, FL.</h2>
+    <p class="sec-sub-lt">Located at 6031 Hollywood Blvd — accessible from I-95, US-1, and all surrounding Broward communities. Secured 40-bay facility with climate-controlled vehicle storage.</p>
+    <div class="location-layout" style="margin-top:48px">
+      <div>
+        <div class="location-details">
+          <div class="loc-detail">
+            <span class="loc-icon">📍</span>
+            <div>
+              <span class="loc-label">Address</span>
+              <div class="loc-val">
+                <a href="https://maps.app.goo.gl/g6Mp99XwxPn1yoM68" target="_blank" rel="noopener">
+                  6031 Hollywood Blvd<br>Hollywood, FL 33024
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="loc-detail">
+            <span class="loc-icon">📞</span>
+            <div>
+              <span class="loc-label">Phone</span>
+              <div class="loc-val"><a href="tel:+17542605912">+1 (754) 260-5912</a></div>
+            </div>
+          </div>
+          <div class="loc-detail">
+            <span class="loc-icon">⏰</span>
+            <div>
+              <span class="loc-label">Hours</span>
+              <div class="loc-val">
+                Mon–Sat: 8:00 AM – 6:00 PM<br>
+                Sunday: 9:00 AM – 5:00 PM
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="loc-facility-facts">
+          <div class="loc-fact"><strong>40-Bay</strong> professional repair facility</div>
+          <div class="loc-fact"><strong>24/7 Armed Security</strong> &amp; CCTV monitoring</div>
+          <div class="loc-fact"><strong>Climate-Controlled</strong> vehicle storage</div>
+          <div class="loc-fact"><strong>Free Towing</strong> on qualifying major repairs</div>
+          <div class="loc-fact"><strong>English &amp; Spanish</strong> bilingual team</div>
+        </div>
+        <a class="btn-directions" href="https://maps.app.goo.gl/g6Mp99XwxPn1yoM68" target="_blank" rel="noopener">
+          🗺️ Get Directions
+        </a>
+      </div>
+      <div>
+        <div class="map-wrapper">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3585.2!2d-80.22388!3d26.02718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9a57e6e0ddfb7%3A0x2f1b9d6c7e8a4f5d!2s6031%20Hollywood%20Blvd%2C%20Hollywood%2C%20FL%2033024%2C%20USA!5e0!3m2!1sen!2sus!4v1720000000001!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Luxe Auto Repair location at 6031 Hollywood Blvd Hollywood FL 33024"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FULL SERVICE AREA — BROWARD + MIAMI-DADE ══ -->
+<section class="area-full-section" aria-labelledby="area-full-h2">
+  <div class="wrap">
+    <span class="sec-eyebrow-dk">Service Area</span>
+    <h2 class="sec-h2-dk" id="area-full-h2">Serving South Florida — From Broward to Miami-Dade.</h2>
+    <p class="sec-sub-dk">Luxe Auto Repair serves drivers across Broward and Miami-Dade counties. Free towing on qualifying major repairs within our primary service area.</p>
+    <div class="area-full-grid">
+
+      <div class="area-county">
+        <span class="area-county-name">Broward County</span>
+        <ul class="area-city-list">
+          <li>
+            Hollywood, FL
+            <span>33020 · 33021 · 33024</span>
+          </li>
+          <li>
+            Pembroke Pines, FL
+            <span>33026 · 33028</span>
+          </li>
+          <li>
+            Hallandale Beach, FL
+            <span>33009</span>
+          </li>
+          <li>
+            Dania Beach, FL
+            <span>33004</span>
+          </li>
+          <li>
+            Davie, FL
+            <span>33328</span>
+          </li>
+          <li>
+            Cooper City, FL
+            <span>33330</span>
+          </li>
+          <li>
+            Miramar, FL
+            <span>33025</span>
+          </li>
+          <li>
+            Weston, FL
+            <span>33326</span>
+          </li>
+          <li>
+            Fort Lauderdale, FL
+            <span>33312 · 33314</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="area-county">
+        <span class="area-county-name">Miami-Dade County</span>
+        <ul class="area-city-list">
+          <li>
+            Aventura, FL
+            <span>33180</span>
+          </li>
+          <li>
+            North Miami Beach, FL
+            <span>33160 · 33162</span>
+          </li>
+          <li>
+            Miami Gardens, FL
+            <span>33056</span>
+          </li>
+          <li>
+            Hialeah, FL
+            <span>33010 · 33012</span>
+          </li>
+          <li>
+            Miami, FL
+            <span>33132 · 33133</span>
+          </li>
+          <li>
+            Coral Gables, FL
+            <span>33134</span>
+          </li>
+          <li>
+            Kendall, FL
+            <span>33156 · 33176</span>
+          </li>
+          <li>
+            Cutler Bay, FL
+            <span>33189</span>
+          </li>
+          <li>
+            Homestead, FL
+            <span>33030 · 33033</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="area-full-note">
+      <strong>Free Towing Available</strong> on qualifying major repairs within our primary Broward County service area. Call <a href="tel:+17542605912" style="color:var(--red);font-weight:700;">(754) 260-5912</a> to confirm towing eligibility for your location and repair type. Miami-Dade towing eligibility varies by repair — please call to confirm.
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ══ FOOTER ══ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="ftr-brand">LUXE <em>AUTO</em> REPAIR</div>
+        <div class="ftr-addr">6031 Hollywood Blvd<br>Hollywood, FL 33024<br>Broward County</div>
+        <div class="ftr-phone"><a href="tel:+17542605912">(754) 260-5912</a></div>
+        <div class="ftr-tagline">Where Luxury Meets Performance.</div>
+      </div>
+      <div class="ftr-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="https://luxeautosrepair.com/services/">Engine &amp; Transmission</a></li>
+          <li><a href="https://luxeautosrepair.com/services/">AC Repair</a></li>
+          <li><a href="https://luxeautosrepair.com/services/">Brake Repair</a></li>
+          <li><a href="https://luxeautosrepair.com/services/">Suspension</a></li>
+          <li><a href="https://luxeautosrepair.com/services/">Diagnostics</a></li>
+          <li><a href="https://luxeautosrepair.com/services/">Oil Change</a></li>
+        </ul>
+      </div>
+      <div class="ftr-col">
+        <h4>Vehicle Brands</h4>
+        <ul>
+          <li><a href="https://luxeautosrepair.com/vehicles/#bmw">BMW Repair</a></li>
+          <li><a href="https://luxeautosrepair.com/vehicles/#mercedes">Mercedes-Benz Repair</a></li>
+          <li><a href="https://luxeautosrepair.com/vehicles/#audi">Audi &amp; VW Repair</a></li>
+          <li><a href="https://luxeautosrepair.com/vehicles/#porsche">Porsche Repair</a></li>
+          <li><a href="https://luxeautosrepair.com/vehicles/#landrover">Land Rover Repair</a></li>
+          <li><a href="https://luxeautosrepair.com/vehicles/">All Brands</a></li>
+        </ul>
+      </div>
+      <div class="ftr-col">
+        <h4>Quick Access</h4>
+        <ul>
+          <li><a href="https://luxeautosrepair.com/">Home</a></li>
+          <li><a href="https://luxeautosrepair.com/services/">Services Hub</a></li>
+          <li><a href="https://luxeautosrepair.com/vehicles/">Brands Hub</a></li>
+          <li><a href="https://luxeautosrepair.com/knowledge/">Knowledge Center</a></li>
+          <li><a href="#contact-h2">Contact &amp; Callback</a></li>
+          <li><a href="/es/" hreflang="es">Versión en Español</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Luxe Auto Repair · 6031 Hollywood Blvd, Hollywood FL 33024</span>
+      <div class="footer-legal">
+        <a href="/privacy-policy">Privacy Policy</a>
+        <a href="/terms-of-use">Terms of Use</a>
+        <a href="/disclaimer">Disclaimer</a>
+        <a href="tel:+17542605912">(754) 260-5912</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="sticky-bar">
+  <a href="tel:+17542605912">📞 Tap to Call — (754) 260-5912</a>
+</div>
 
 
-
-       <!-- TESTIMONIAL JAVASCRIPT -->
-       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-       <script>
-           const swiper = new Swiper('.js-testimonial-slider', {
-               grabCursor: true,
-               spaceBetween:30,
-               pagination:{
-                   el: '.js-testimonial-pagination',
-                   clickable: true
-               },
-               breakpoints:{
-                   767:{
-                       slidesPerView: 3
-                   }
-               }
-           });
-       </script>
+<a class="scroll-top" href="#main" id="scrollTop" aria-label="Back to top">↑</a>
+<script>
+(function(){
+  var btn = document.getElementById('scrollTop');
+  if(!btn) return;
+  window.addEventListener('scroll', function(){
+    btn.style.display = window.scrollY > 600 ? 'flex' : 'none';
+  }, {passive: true});
+})();
+</script>
 </body>
-
 </html>
